@@ -1,0 +1,2203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MGV Painters | Premium Painting Services Bangalore</title>
+  <meta name="description" content="Get professional interior, exterior, waterproofing, and gate painting services in Bangalore. Transparent pricing, live progress tracking, and verified painters.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header>
+      <div class="logo" id="logoBtn">
+        <img src="logo.svg.jpeg" alt="MGV Painters Logo" class="brand-logo-img">
+        <span>MGV Painters</span>
+      </div>
+      <nav>
+        <button class="nav-btn active" data-view="home-view">
+          <i data-lucide="home"></i> Home
+        </button>
+        <button class="nav-btn" data-view="painter-signup-view">
+          <i data-lucide="user-plus"></i> Join as Painter
+        </button>
+        <button class="nav-btn" data-view="login-view" id="navLoginBtn">
+          <i data-lucide="log-in"></i> Sign In
+        </button>
+      </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+
+      <!-- ==================== HOME / PUBLIC VIEW ==================== -->
+      <section id="home-view" class="view-section active">
+        <!-- Hero Section -->
+        <div class="hero">
+          <div class="hero-text">
+            <h1>Sleek, Durable, <span>Premium Wall Makeovers</span></h1>
+            <p>Elevate your spaces with Bangalore's tech-enabled painting experts. Accurate area measurement, premium brand selections, labor or lumpsum choices, and a real-time progress tracking portal for homeowners.</p>
+            <div class="hero-buttons">
+              <button class="btn btn-primary" id="homeWaBtn"><i data-lucide="phone-call"></i> Direct WhatsApp Consultation</button>
+              <a href="#booking-anchor" class="btn btn-secondary"><i data-lucide="calendar"></i> Book Free Site Visit</a>
+            </div>
+          </div>
+          <div class="card primary-border text-center" style="display: flex; flex-direction: column; justify-content: center; padding: 2rem;">
+            <div style="margin: 0 auto 1rem auto; width: 64px; height: 64px; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0, 0, 0, 0.08); box-shadow: 0 4px 12px rgba(124, 58, 237, 0.12);">
+              <img src="logo.svg.jpeg" alt="MGV Painters Logo" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <h3 style="margin-bottom: 0.5rem;">Why Choose MGV?</h3>
+            <ul style="text-align: left; list-style: none; color: var(--text-secondary); font-size: 0.9rem; display: flex; flex-direction: column; gap: 0.5rem;">
+              <li><i data-lucide="check" style="color: var(--secondary); display: inline; vertical-align: middle; width: 16px; margin-right: 0.5rem;"></i> 2-Hour Progress Selfie Updates</li>
+              <li><i data-lucide="check" style="color: var(--secondary); display: inline; vertical-align: middle; width: 16px; margin-right: 0.5rem;"></i> Daily Location Clock-in evidence</li>
+              <li><i data-lucide="check" style="color: var(--secondary); display: inline; vertical-align: middle; width: 16px; margin-right: 0.5rem;"></i> Complete On-Site Transparency</li>
+              <li><i data-lucide="check" style="color: var(--secondary); display: inline; vertical-align: middle; width: 16px; margin-right: 0.5rem;"></i> Flexible Labor/Lumpsum Models</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Dynamic Services Grid -->
+        <h2 class="section-title"><i data-lucide="paint-brush" style="color: var(--primary);"></i> Our Painting Services</h2>
+        <p class="section-subtitle">Tailored options for houses, rentals, commercial projects, and multi-tenant structures.</p>
+        <div class="services-grid" id="homeServicesGrid">
+          <!-- Dynamically Rendered from AppState.services -->
+        </div>
+
+        <!-- Contractor Intro Section -->
+        <div class="card intro-card mb-4" style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%); border-color: rgba(0, 0, 0, 0.08); padding: 2rem; margin-bottom: 4rem;">
+          <div class="grid-form" style="grid-template-columns: 0.4fr 1.6fr; gap: 2.5rem; align-items: center;">
+            <div class="text-center">
+              <div class="contractor-avatar" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid var(--primary-glow); box-shadow: 0 0 20px rgba(99, 102, 241, 0.3); overflow: hidden; display: inline-block;">
+                <img src="director.jpg" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400'" alt="Mr. G. V. Gopinath" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <h4 class="mt-2" style="font-family: var(--font-display); margin-top: 0.75rem;">Mr. G. V. Gopinath</h4>
+              <p class="text-muted" style="font-size: 0.75rem;">Director & Chief Supervisor</p>
+            </div>
+            <div>
+              <span class="badge badge-success mb-2" style="font-size: 0.8rem; padding: 0.3rem 0.6rem;">Trusted since 2016</span>
+              <h3 style="font-size: 1.8rem; margin-bottom: 0.75rem;">Direct Contractor Pricing & Quality Guarantee</h3>
+              <p class="text-secondary" style="font-size: 0.95rem; margin-bottom: 1.25rem;">
+                Welcome to <strong>MGV Painters</strong>. I personally supervise every project in Bangalore. We don't act as middlemen; we hire and manage our own team of partner painters, which allows us to offer <strong>highly negotiable pricing</strong> without compromising on material grade or execution quality.
+              </p>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; font-size: 0.85rem; color: var(--text-secondary);">
+                <div><i data-lucide="check-circle" style="color: var(--secondary); width: 14px; vertical-align: middle; margin-right: 0.5rem;"></i> <strong>150+ Apartments</strong> completed</div>
+                <div><i data-lucide="check-circle" style="color: var(--secondary); width: 14px; vertical-align: middle; margin-right: 0.5rem;"></i> <strong>45+ Premium Villas</strong> done</div>
+                <div><i data-lucide="check-circle" style="color: var(--secondary); width: 14px; vertical-align: middle; margin-right: 0.5rem;"></i> <strong>30+ Commercial Buildings</strong></div>
+                <div><i data-lucide="check-circle" style="color: var(--secondary); width: 14px; vertical-align: middle; margin-right: 0.5rem;"></i> <strong>100% On-Time</strong> execution</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dynamic Brands & Paint Choices -->
+        <div class="brand-section">
+          <h2 class="section-title"><i data-lucide="palette" style="color: var(--secondary);"></i> Paint Catalog & Brands</h2>
+          <p class="section-subtitle">We use certified premium brands. Select paint grade options to configure your pricing model.</p>
+          <div class="brands-grid" id="homeBrandsGrid">
+            <!-- Dynamically Rendered from AppState.paintCatalog -->
+          </div>
+        </div>
+
+        <!-- Reviews & Media -->
+        <div class="brand-section" style="margin-top: 4rem;">
+          <h2 class="section-title"><i data-lucide="star" style="color: var(--accent);"></i> Real Customer Transformations & Reviews</h2>
+          <p class="section-subtitle">See why homeowners across Indiranagar, HSR, and Koramangala rate us 5 stars.</p>
+          
+          <div class="grid-form" style="grid-template-columns: 1.1fr 0.9fr; gap: 2rem; margin-bottom: 2rem; align-items: stretch;">
+            <!-- Video Review Card -->
+            <div class="card" style="padding: 1.5rem; display: flex; flex-direction: column; justify-content: center;">
+              <h4 class="mb-3"><i data-lucide="video" style="color: var(--primary); vertical-align: middle; margin-right: 0.5rem;"></i> Site Video Walkthrough</h4>
+              <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; background: #000; border: 1px solid rgba(255,255,255,0.05); margin-bottom: 1rem;">
+                <!-- Mock Video Poster and Play Trigger -->
+                <div id="videoPoster" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80') center center; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center; cursor: pointer; transition: var(--transition);">
+                  <div style="width: 64px; height: 64px; border-radius: 50%; background: var(--primary); display: flex; align-items: center; justify-content: center; box-shadow: 0 0 20px rgba(99, 102, 241, 0.6); color: white; transition: var(--transition);" class="play-btn-circle">
+                    <i data-lucide="play" style="fill: white; width: 28px; height: 28px; margin-left: 4px;"></i>
+                  </div>
+                  <span style="color: white; margin-top: 1rem; font-weight: 600; font-family: var(--font-display); text-shadow: 0 2px 4px rgba(0,0,0,0.8);">Villa Painting Complete Walkthrough</span>
+                </div>
+                <!-- Actual video player (hidden by default) -->
+                <iframe id="reviewIframe" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" src="" allow="autoplay" allowfullscreen></iframe>
+              </div>
+
+              <!-- Team Showcase Gallery -->
+              <div class="team-showcase-section">
+                <h5 class="mb-3" style="display: flex; align-items: center; gap: 0.5rem; font-family: var(--font-display); font-size: 1rem; color: white;">
+                  <i data-lucide="users" style="color: var(--secondary); width: 16px; height: 16px;"></i>
+                  Our Professional Painting Team
+                </h5>
+                <div class="team-members-grid">
+                  <div class="team-member-card">
+                    <img src="https://images.unsplash.com/photo-1540569014015-19a7be504e3a?auto=format&fit=crop&w=200&q=80" alt="Raj Kumar">
+                    <div class="member-info">
+                      <h6>Raj Kumar</h6>
+                      <p>Interior Expert</p>
+                    </div>
+                  </div>
+                  <div class="team-member-card">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80" alt="Suresh Gowda">
+                    <div class="member-info">
+                      <h6>Suresh Gowda</h6>
+                      <p>Exterior Expert</p>
+                    </div>
+                  </div>
+                  <div class="team-member-card">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80" alt="Ramesh Kumar">
+                    <div class="member-info">
+                      <h6>Ramesh Kumar</h6>
+                      <p>Grill Specialist</p>
+                    </div>
+                  </div>
+                  <div class="team-member-card">
+                    <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80" alt="Manjunath K">
+                    <div class="member-info">
+                      <h6>Manjunath K</h6>
+                      <p>Polishing Guru</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Customer Reviews List -->
+            <div style="display: flex; flex-direction: column; gap: 1rem; justify-content: space-between;" id="homeReviewsContainer">
+              <!-- Populated dynamically via app.js -->
+            </div>
+          </div>
+          
+          <!-- Image Gallery Grid -->
+          <div class="card">
+            <h4 class="mb-3"><i data-lucide="image" style="color: var(--secondary); vertical-align: middle; margin-right: 0.5rem;"></i> Completed Project Sites Showcase</h4>
+            <div class="photo-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;" id="homePortfolioContainer">
+              <!-- Populated dynamically via app.js -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Booking Form Section -->
+        <span id="booking-anchor"></span>
+        <div class="card" style="max-width: 800px; margin: 4rem auto;">
+          <h2 class="section-title text-center" style="justify-content: center;"><i data-lucide="clipboard-list" style="color: var(--primary);"></i> Book Site Survey & Final Quotation</h2>
+          <p class="text-secondary text-center mb-4">Provide details. Our technician will visit with laser measuring tools for exact quotes. <strong>You will receive an automated WhatsApp confirmation instantly.</strong></p>
+          
+          <form id="bookingForm">
+            <div class="grid-form">
+              <div class="form-group">
+                <label>Your Name *</label>
+                <input type="text" class="input-control" id="bookName" placeholder="e.g. Navya Shree" required>
+              </div>
+              <div class="form-group">
+                <label>WhatsApp Phone Number *</label>
+                <input type="tel" class="input-control" id="bookPhone" placeholder="e.g. 9876543210" required>
+              </div>
+              <div class="form-group">
+                <label>Email Address *</label>
+                <input type="email" class="input-control" id="bookEmail" placeholder="name@domain.com" required>
+              </div>
+              <div class="form-group">
+                <label>Property Site Address *</label>
+                <input type="text" class="input-control" id="bookAddress" placeholder="Flat, Building, Street, HSR Layout" required>
+              </div>
+              <div class="form-group grid-form-full">
+                <label>Specific Instructions / Comments</label>
+                <textarea class="input-control" id="bookComments" rows="3" placeholder="Specify wall issues (dampness, cracks) or preferred painting dates..."></textarea>
+              </div>
+            </div>
+            
+            <div class="text-center mt-4">
+              <button type="submit" class="btn btn-success" style="padding: 0.85rem 3rem; font-size: 1.1rem;">
+                <i data-lucide="send"></i> Request Site Visit & Quote
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- ==================== UNIFIED LOGIN PORTAL ==================== -->
+      <section id="login-view" class="view-section">
+        <div class="card auth-overlay" style="max-width: 450px; margin: 4rem auto; text-align: center;">
+          <div class="service-icon" style="width: 60px; height: 60px; font-size: 2rem; margin: 0 auto 1.5rem auto;"><i data-lucide="shield-check"></i></div>
+          <h3 class="mb-2">Unified Portal Access</h3>
+          <p class="text-secondary mb-4" style="font-size: 0.95rem;">Sign in to access your dashboard (Customer, Painter, or Contractor) using your registered details.</p>
+          
+          <div id="loginInputGroup" style="display:flex; flex-direction:column; gap:1rem; width:100%;">
+            <div class="form-group" style="text-align: left; width: 100%; margin-bottom: 0;">
+              <label>Phone or Generated Email ID</label>
+              <input type="text" class="input-control" id="loginUserPhone" placeholder="e.g. 9876543210 or username_dob_domain">
+            </div>
+            
+            <div class="form-group" id="loginPasswordGroup" style="text-align: left; width: 100%; display: none; margin-bottom: 0;">
+              <label>Password</label>
+              <input type="password" class="input-control" id="loginUserPassword" placeholder="Enter password if registered">
+            </div>
+          </div>
+          
+          <button class="btn btn-primary mt-4" id="unifiedLoginBtn" style="width: 100%; padding: 0.85rem;"><i data-lucide="log-in"></i> Sign In</button>
+          
+          <div style="display:flex; justify-content:space-between; width:100%; font-size:0.82rem; margin-top:1rem;">
+            <a href="#" onclick="toggleUnifiedSignup(true)" style="color: var(--secondary); font-weight: 500;">Create Customer Account</a>
+            <a href="#" onclick="alert('Forgot password? Please ask Mr. G. V. Gopinath (Admin) to manually reset your password from the portal.')" style="color: var(--danger);">Forgot Password?</a>
+          </div>
+
+          <div id="loginDemoAccounts" style="margin-top: 1.5rem; text-align: left; font-size: 0.8rem; color: var(--text-muted); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 1rem; display: none;">
+            <strong>Demo Accounts:</strong><br>
+            • Customer: <code>9876543210</code><br>
+            • Painter/Worker: <code>9988776655</code><br>
+            • Admin: <code>9999999999</code> or passcode <code>admin</code>
+          </div>
+        </div>
+
+        <!-- Unified Sign Up Card -->
+        <div class="card" id="unifiedSignupCard" style="max-width: 450px; margin: 0 auto; display: none; text-align: center; border-color: var(--secondary); background: #0c0b1e; box-shadow: 0 0 25px rgba(99, 102, 241, 0.15); padding: 2rem;">
+          <div class="service-icon" style="width: 60px; height: 60px; font-size: 2rem; margin: 0 auto 1.5rem auto; color: var(--secondary);"><i data-lucide="user-plus"></i></div>
+          <h3 class="mb-2">Create Customer Account</h3>
+          <p class="text-secondary mb-4" style="font-size: 0.9rem;">Sign up to configure site details, check quote estimates, and verify milestones.</p>
+          
+          <form id="unifiedSignupForm" style="text-align: left; display: flex; flex-direction: column; gap: 1rem;">
+            <div class="form-group">
+              <label>Full Name *</label>
+              <input type="text" class="input-control" id="suName" required placeholder="e.g. Navya Shree">
+            </div>
+            
+            <div class="grid-form">
+              <div class="form-group">
+                <label>Date of Birth *</label>
+                <input type="date" class="input-control" id="suDOB" required>
+              </div>
+              <div class="form-group">
+                <label>Email Domain *</label>
+                <input type="text" class="input-control" id="suEmailDomain" required placeholder="e.g. gmail.com">
+              </div>
+            </div>
+            
+            <div class="grid-form">
+              <div class="form-group">
+                <label>Phone Number *</label>
+                <input type="tel" class="input-control" id="suPhone" required placeholder="e.g. 9876543210">
+              </div>
+              <div class="form-group">
+                <label>Desired Password *</label>
+                <input type="password" class="input-control" id="suPassword" required placeholder="e.g. password123">
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-top: 0.25rem;">
+              <label style="color: var(--secondary); font-weight: 500; font-size: 0.85rem;">Generated Unique Username Prefix (For Login)</label>
+              <input type="text" class="input-control" id="suGeneratedUsername" readonly style="background: rgba(255,255,255,0.04); font-weight: 600; color: var(--primary-glow);" placeholder="Autogenerated username preview...">
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-2" style="width: 100%; padding: 0.85rem;"><i data-lucide="user-plus"></i> Register Account</button>
+          </form>
+          
+          <div style="margin-top: 1.25rem; font-size: 0.85rem;">
+            <a href="#" onclick="toggleUnifiedSignup(false)" style="color: var(--primary);">Already have an account? Sign In</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== PAINTER JOIN ONBOARDING PORTAL ==================== -->
+      <section id="painter-signup-view" class="view-section">
+        <div class="card" style="max-width: 600px; margin: 0 auto 4rem auto;">
+          <h2 class="section-title text-center" style="justify-content: center;"><i data-lucide="user-plus" style="color: var(--secondary);"></i> Register as an MGV Partner Painter</h2>
+          <p class="text-secondary text-center mb-4">Join our team of professional painters in Bangalore. Submit your credentials for verification. Once approved, you can log in to view assignments.</p>
+          
+          <form id="painterSignupForm">
+            <div class="grid-form">
+              <div class="form-group">
+                <label>Your Full Name *</label>
+                <input type="text" class="input-control" id="applyName" placeholder="e.g. Ramesh Kumar" required>
+              </div>
+              <div class="form-group">
+                <label>Mobile Number *</label>
+                <input type="tel" class="input-control" id="applyPhone" placeholder="e.g. 9876500123" required>
+              </div>
+              <div class="form-group grid-form-full">
+                <label>Painting Specialty *</label>
+                <select class="input-control select-control" id="applySpecialty">
+                  <option value="interior">Interior Emulsion Expert</option>
+                  <option value="exterior">Exterior Weatherproofing Specialist</option>
+                  <option value="metal">Metal Gate & Grill Enameller</option>
+                  <option value="polishing">Wood Polishing & Refinishing</option>
+                  <option value="grouting">Deep Cleaning & Tile Grouting</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label>Aadhar Card Front Side (Photo) *</label>
+                <input type="file" class="input-control" id="applyAadharFront" accept="image/*" required>
+              </div>
+              <div class="form-group">
+                <label>Aadhar Card Back Side (Photo) *</label>
+                <input type="file" class="input-control" id="applyAadharBack" accept="image/*" required>
+              </div>
+              
+              <div class="form-group grid-form-full">
+                <label>Verification Selfie *</label>
+                <input type="file" class="input-control" id="applySelfie" accept="image/*" required>
+              </div>
+            </div>
+            
+            <div class="text-center mt-4">
+              <button type="submit" class="btn btn-success" style="padding: 0.85rem 3rem; font-size: 1.1rem;">
+                <i data-lucide="upload-cloud"></i> Submit Partner Application
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- ==================== CUSTOMER PORTAL ==================== -->
+      <section id="customer-view" class="view-section">
+        <!-- Portal Dashboard (Hidden on load) -->
+        <div id="customerDashboard" class="portal-layout" style="display: none; width: 100%;">
+          <!-- Sidebar tabs -->
+          <div class="portal-sidebar">
+            <h3 id="custWelcomeName" class="mb-4">Welcome Client</h3>
+            <button class="portal-tab active" data-pane="cust-tracker"><i data-lucide="compass"></i> Work Progress</button>
+            <button class="portal-tab" data-pane="cust-photos"><i data-lucide="image"></i> Work Update Photos</button>
+            <button class="portal-tab" data-pane="cust-quotation"><i data-lucide="calculator"></i> Quotation & Invoice</button>
+            <button class="portal-tab" data-pane="cust-payments"><i data-lucide="receipt"></i> Invoices & Payments</button>
+            <button class="btn btn-secondary mt-4" id="custLogoutBtn"><i data-lucide="log-out"></i> Log Out</button>
+          </div>
+
+          <!-- Panes content -->
+          <div class="card" style="padding: 2rem;">
+            <!-- Progress Tracker -->
+            <div id="cust-tracker" class="portal-pane active">
+              <h3>Real-Time Project Timeline</h3>
+              <p class="text-secondary mb-4">View scheduled milestones and completion signatures of site technicians.</p>
+              
+              <div class="timeline-track" id="custTimeline">
+                <!-- Dynamically Generated Timeline -->
+              </div>
+            </div>
+
+            <!-- Photos Update Feed -->
+            <div id="cust-photos" class="portal-pane">
+              <h3>2-Hour Interval Status Photos</h3>
+              <p class="text-secondary mb-4">Photos uploaded by your assigned painter as evidence of progress, marked with timestamps and task descriptions.</p>
+              <div class="photo-gallery" id="custPhotoGallery">
+                <!-- Dynamically Generated Photo Feed -->
+              </div>
+            </div>
+
+            <!-- Dynamic Quotation & Invoice Details Pane in Customer Portal -->
+            <div id="cust-quotation" class="portal-pane">
+              <h3>Quotation & Invoice Breakdown</h3>
+              <p class="text-secondary mb-4">Details of your active painting estimate, calculated area, and invoice details.</p>
+              <div class="card" style="background: rgba(255,255,255,0.02); padding: 1.5rem; margin-bottom: 1.5rem;">
+                <div class="pricing-summary" style="border-top: none; padding-top: 0; margin-top: 0;">
+                  <div class="pricing-row">
+                    <span>Property Site Address</span>
+                    <span id="custProjAddress">Loading...</span>
+                  </div>
+                  <div class="pricing-row">
+                    <span>Calculated Area</span>
+                    <span id="custProjArea">0 sqft</span>
+                  </div>
+                  <div class="pricing-row">
+                    <span>Service Selection</span>
+                    <span id="custProjPaintType">Loading...</span>
+                  </div>
+                  <div class="pricing-row">
+                    <span>Pricing Delivery Model</span>
+                    <span id="custProjModel">Loading...</span>
+                  </div>
+                  <div class="pricing-row">
+                    <span>Base Estimate Cost (Net of GST)</span>
+                    <span id="custProjBaseCost">₹0.00</span>
+                  </div>
+                  <div class="pricing-row">
+                    <span>GST (18%)</span>
+                    <span id="custProjGST">₹0.00</span>
+                  </div>
+                  <div class="pricing-row total">
+                    <span>Total Invoiced Cost</span>
+                    <span id="custProjTotal" class="val">₹0.00</span>
+                  </div>
+                  
+                  <div style="border-top: 1px dashed rgba(255,255,255,0.08); margin-top: 1rem; padding-top: 1rem;">
+                    <h5 style="color: var(--secondary); font-family: var(--font-display); margin-bottom: 0.75rem;">Project Time & Status Tracking</h5>
+                    <div class="pricing-row">
+                      <span>Estimated Hours</span>
+                      <span id="custProjEstHours" style="font-weight:600;">0 hrs</span>
+                    </div>
+                    <div class="pricing-row">
+                      <span>Actual Working Hours Logged</span>
+                      <span id="custProjActualHours" style="font-weight:600; color: var(--primary);">0 hrs</span>
+                    </div>
+                    <div class="pricing-row" style="flex-direction: column; align-items: flex-start; gap: 0.25rem;">
+                      <span style="font-size:0.8rem; font-weight:600; color:var(--text-muted);">Supervisor Action Notes & Status Updates</span>
+                      <p id="custProjStatusNotes" style="font-size:0.8rem; color:var(--text-secondary); margin: 0; background:rgba(255,255,255,0.02); padding:0.5rem; border-radius:4px; width: 100%; border: 1px solid rgba(255,255,255,0.05); min-height: 40px;">No updates posted yet.</p>
+                    </div>
+                    <div class="pricing-row" style="flex-direction: column; align-items: flex-start; gap: 0.25rem; margin-top: 0.5rem;">
+                      <span style="font-size:0.8rem; font-weight:600; color:var(--text-muted);">Quality & Fault Prevention Logs (To Not Repeat on Next Project)</span>
+                      <p id="custProjFaultLogs" style="font-size:0.8rem; color:var(--danger); margin: 0; background:rgba(255,0,0,0.02); padding:0.5rem; border-radius:4px; width: 100%; border: 1px solid rgba(255,0,0,0.08); min-height: 40px;">No quality issues reported.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Invoices and Payments Ledger -->
+            <div id="cust-payments" class="portal-pane">
+              <h3>Your Payment & Billing Transactions</h3>
+              <p class="text-secondary mb-4">Receipt history including GST details and download links for estimates.</p>
+              
+              <div class="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Transaction ID</th>
+                      <th>Date</th>
+                      <th>Service Details</th>
+                      <th>Base Cost</th>
+                      <th>GST (18%)</th>
+                      <th>Total Paid</th>
+                      <th>Status</th>
+                      <th>Receipt</th>
+                    </tr>
+                  </thead>
+                  <tbody id="custTransactionsBody">
+                    <!-- Dynamically Populated -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== WORKER/PAINTER PORTAL ==================== -->
+      <section id="worker-view" class="view-section">
+        <!-- Worker Main Application (Hidden on load) -->
+        <div id="workerDashboard" class="portal-layout" style="display: none; width: 100%;">
+          <div class="portal-sidebar">
+            <h3 id="workerWelcomeName" class="mb-4">Painter Portal</h3>
+            <button class="portal-tab active" data-pane="work-jobs"><i data-lucide="briefcase"></i> Assigned Work</button>
+            <button class="portal-tab" data-pane="work-attendance"><i data-lucide="camera"></i> Clock-In / Attendance</button>
+            <button class="portal-tab" data-pane="work-updates"><i data-lucide="upload-cloud"></i> 2hr Work Update</button>
+            <button class="btn btn-secondary mt-4" id="workerLogoutBtn"><i data-lucide="log-out"></i> Log Out</button>
+          </div>
+
+          <div class="card" style="padding: 2rem;">
+            <!-- Assigned Job Detail -->
+            <div id="work-jobs" class="portal-pane active">
+              <h3>Assigned Painting Site</h3>
+              <p class="text-secondary mb-4">Details of active customer site and instructions.</p>
+              
+              <div id="workerActiveJobContainer">
+                <!-- Dynamically Filled -->
+              </div>
+            </div>
+
+            <!-- Attendance Selfie Upload -->
+            <div id="work-attendance" class="portal-pane">
+              <h3>Daily Site Attendance</h3>
+              <p class="text-secondary mb-2">Upload a selfie at the site location where you stopped the job yesterday to record clock-in time and verify GPS.</p>
+              
+              <div id="attendanceContainer" style="display: flex; flex-direction: column; gap: 1.5rem;">
+                <div id="attendanceStatusCard" class="card" style="background: rgba(9, 13, 22, 0.4); text-align: center; border: 1px dashed rgba(255,255,255,0.1);">
+                  <p id="attStatusText">Checking attendance records for today...</p>
+                </div>
+
+                <div id="attendanceActionArea" style="display: none;">
+                  <div class="grid-form">
+                    <div class="form-group">
+                      <label>Capture / Upload Selfie *</label>
+                      <input type="file" class="input-control" id="attSelfieInput" accept="image/*" capture="user">
+                    </div>
+                    <div class="form-group">
+                      <label>Site GPS Detection (Simulated)</label>
+                      <input type="text" class="input-control" id="attGPSVal" readonly value="Click Detect Location">
+                      <button type="button" class="btn btn-secondary mt-2" id="detectLocationBtn"><i data-lucide="map-pin"></i> Verify Location coordinates</button>
+                    </div>
+                  </div>
+                  
+                  <div class="text-center mt-4">
+                    <button class="btn btn-success" id="submitAttendanceBtn" style="padding: 0.85rem 3rem;"><i data-lucide="clock"></i> Clock In & Mark Attendance</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2-Hour Progress Update -->
+            <div id="work-updates" class="portal-pane">
+              <h3>Every 2-Hour Work Update Upload</h3>
+              <p class="text-secondary mb-4">Required work check updates. Send selfies and work photos showing painting speed and completion progress.</p>
+              
+              <form id="progressUpdateForm">
+                <div class="grid-form">
+                  <div class="form-group">
+                    <label>Current Status Photo *</label>
+                    <input type="file" class="input-control" id="updatePhotoInput" accept="image/*" required>
+                  </div>
+                  <div class="form-group">
+                    <label>Work Stage / Status Description *</label>
+                    <select class="input-control select-control" id="updateDesc" required>
+                      <option value="Sanding walls and filling cracks with putty.">Sanding walls and filling cracks with putty</option>
+                      <option value="Completed first coat of water base primer.">Completed first coat of water base primer</option>
+                      <option value="Applying first color coat of premium emulsion.">Applying first color coat of premium emulsion</option>
+                      <option value="Finished second color coat, starting border touch-ups.">Finished second color coat, starting border touch-ups</option>
+                      <option value="Completed metal grill primer coat.">Completed metal grill primer coat</option>
+                      <option value="Painting final gloss coat on doors/gates.">Painting final gloss coat on doors/gates</option>
+                      <option value="Final site cleanup, masking tape removal.">Final site cleanup, masking tape removal</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <div class="text-center mt-4">
+                  <button type="submit" class="btn btn-primary" style="padding: 0.85rem 3rem;"><i data-lucide="upload"></i> Upload Progress Proof</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== CONTRACTOR / ADMIN PORTAL ==================== -->
+      <section id="contractor-view" class="view-section">
+        <!-- Contractor Main Application -->
+        <div id="contractorDashboard" class="portal-layout" style="display: none; width: 100%;">
+          <!-- Sidebar -->
+          <div class="portal-sidebar">
+            <h3 class="mb-4">Contractor Hub</h3>
+            <button class="portal-tab active" data-pane="con-overview"><i data-lucide="bar-chart-2"></i> Operations Center</button>
+            <button class="portal-tab" data-pane="con-enquiries" data-perm-module="Booking Form" data-perm-action="read"><i data-lucide="book-open"></i> Bookings & Orders</button>
+            <button class="portal-tab" data-pane="con-painter-apps" data-perm-module="Worker Directory" data-perm-action="read"><i data-lucide="user-check"></i> Onboarding Apps</button>
+            <button class="portal-tab" data-pane="con-workers" data-perm-module="Worker Directory" data-perm-action="read"><i data-lucide="users"></i> Worker Directory</button>
+            <button class="portal-tab" data-pane="con-leads" data-perm-module="Leads Spreadsheet" data-perm-action="read"><i data-lucide="table"></i> Leads Spreadsheet</button>
+            <button class="portal-tab" data-pane="con-calculator" data-perm-module="Booking Form" data-perm-action="write"><i data-lucide="calculator"></i> Estimate Builder</button>
+            <button class="portal-tab" data-pane="con-services" data-perm-module="Services Directory" data-perm-action="read"><i data-lucide="paint-brush"></i> Manage Services</button>
+            <button class="portal-tab" data-pane="con-brands" data-perm-module="Paint Catalog" data-perm-action="read"><i data-lucide="palette"></i> Manage Catalog</button>
+            <button class="portal-tab" data-pane="con-properties" data-perm-module="Paint Catalog" data-perm-action="read"><i data-lucide="home"></i> Manage Properties</button>
+            <button class="portal-tab" data-pane="con-gps" data-perm-module="GPS Live Tracker" data-perm-action="read"><i data-lucide="navigation"></i> GPS Live Tracker</button>
+            <button class="portal-tab" data-pane="con-finances" data-perm-module="Finance Ledgers" data-perm-action="read"><i data-lucide="wallet"></i> Financial Ledgers</button>
+            <button class="portal-tab" data-pane="con-permissions" data-admin-only="true"><i data-lucide="key-round"></i> Access Provider</button>
+            <button class="portal-tab" data-pane="con-credentials" data-admin-only="true"><i data-lucide="key"></i> Credentials Manager</button>
+            <button class="portal-tab" data-pane="con-customers" data-perm-module="Customer Directory" data-perm-action="read"><i data-lucide="contact-2"></i> Customers Database</button>
+            <button class="portal-tab" data-pane="con-whatsapp" data-perm-module="WhatsApp Alerts" data-perm-action="read"><i data-lucide="message-square"></i> WhatsApp Alerts</button>
+            <button class="portal-tab" data-pane="con-gmail" data-perm-module="Gmail Dispatcher" data-perm-action="read"><i data-lucide="mail"></i> Gmail Dispatcher</button>
+            <button class="btn btn-secondary mt-4" id="conLogoutBtn"><i data-lucide="log-out"></i> Exit Dashboard</button>
+          </div>
+
+          <!-- Main Panel -->
+          <div class="card" style="padding: 2rem;">
+            
+            <!-- Tab: Overview KPIs -->
+            <div id="con-overview" class="portal-pane active">
+              <h3>Business Operations Overview</h3>
+              <p class="text-secondary mb-4">Consolidated business health figures in Bangalore HSR layout office.</p>
+              
+              <div class="kpi-row">
+                <div class="card kpi-card" onclick="switchContractorTab('con-enquiries')" style="cursor: pointer;">
+                  <div class="kpi-icon"><i data-lucide="clipboard"></i></div>
+                  <div class="kpi-details">
+                    <div class="kpi-num" id="kpiBookings">0</div>
+                    <div class="kpi-label">Active Orders</div>
+                  </div>
+                </div>
+                <div class="card kpi-card" onclick="switchContractorTab('con-workers')" style="cursor: pointer;">
+                  <div class="kpi-icon"><i data-lucide="users"></i></div>
+                  <div class="kpi-details">
+                    <div class="kpi-num" id="kpiPainters">0</div>
+                    <div class="kpi-label">Registered Painters</div>
+                  </div>
+                </div>
+                <div class="card kpi-card" onclick="switchContractorTab('con-finances')" style="cursor: pointer;">
+                  <div class="kpi-icon"><i data-lucide="indian-rupee"></i></div>
+                  <div class="kpi-details">
+                    <div class="kpi-num" id="kpiRevenue">₹0</div>
+                    <div class="kpi-label">Total Revenue (Net)</div>
+                  </div>
+                </div>
+                <div class="card kpi-card" onclick="switchContractorTab('con-finances')" style="cursor: pointer;">
+                  <div class="kpi-icon"><i data-lucide="calculator"></i></div>
+                  <div class="kpi-details">
+                    <div class="kpi-num" id="kpiGSTPaid">₹0</div>
+                    <div class="kpi-label">Net GST Liability</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Quick action links -->
+              <div class="grid-form mb-4">
+                <div class="card" style="padding: 1.25rem;">
+                  <h4>Add Customer Payment</h4>
+                  <p class="text-secondary mb-4" style="font-size: 0.8rem;">Record client payment received with auto-calculated GST breakdown.</p>
+                  
+                  <form id="addPaymentForm">
+                    <div class="grid-form">
+                      <div class="form-group">
+                        <label>Select Project</label>
+                        <select class="input-control select-control" id="payProjectSelect" required>
+                          <!-- Filled dynamically -->
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Amount Received (Base amount in ₹)</label>
+                        <input type="number" class="input-control" id="payBaseAmount" placeholder="e.g. 20000" required>
+                      </div>
+                    </div>
+
+                    <div class="grid-form mt-2">
+                      <div class="form-group">
+                        <label>Payment Phase / Installment</label>
+                        <select class="input-control select-control" id="payInstallmentPhase" required>
+                          <option value="Advance Payment">Advance Payment (Before Start)</option>
+                          <option value="Installment 1">Installment 1</option>
+                          <option value="Installment 2">Installment 2</option>
+                          <option value="Installment 3">Installment 3</option>
+                          <option value="Final Settlement">Final Settlement</option>
+                        </select>
+                      </div>
+                      <div class="form-group" style="display: flex; align-items: center; padding-top: 1.5rem;">
+                        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; user-select: none;">
+                          <input type="checkbox" id="payIsAdvance" checked>
+                          <span>Advance Received</span>
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="grid-form mt-2">
+                      <div class="form-group">
+                        <label>Business UPI Account ID *</label>
+                        <input type="text" class="input-control" id="payCustomUpiId" value="pay@mgvpainters.bhim" placeholder="e.g. upi@bank" required>
+                      </div>
+                      <div class="form-group">
+                        <label>Upload Custom QR Code (Optional)</label>
+                        <input type="file" class="input-control" id="payCustomQrUpload" accept="image/*">
+                      </div>
+                    </div>
+
+                    <div style="margin-top: 1rem;">
+                      <button type="button" class="btn btn-secondary" id="payGenerateQRBtn" style="width: 100%; border: 1px solid rgba(255,255,255,0.1);"><i data-lucide="qr-code"></i> Generate UPI QR Code</button>
+                    </div>
+
+                    <div id="payUpiQrContainer" style="display: none; margin-top: 1rem; text-align: center; background: rgba(0,0,0,0.3); padding: 1rem; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.05);">
+                      <h5 class="mb-2" style="font-size: 0.85rem; color: var(--secondary);">Scan QR to Receive Payment</h5>
+                      <canvas id="payQrCanvas" width="150" height="150" style="background: white; border-radius: 4px; padding: 0.25rem; display: block; margin: 0 auto;"></canvas>
+                      <p class="text-secondary" style="font-size: 0.75rem; margin-top: 0.5rem;">UPI ID: <strong id="payQrUpiLabel">pay@mgvpainters.bhim</strong></p>
+                      <p class="text-secondary" style="font-size: 0.8rem; font-weight: bold; color: var(--primary); margin-top: 0.25rem;">Total (with 18% GST): ₹<span id="payQrAmount">0.00</span></p>
+                      <div class="form-group mt-2" style="text-align: left;">
+                        <label style="font-size: 0.75rem;">Transaction Ref ID / UPI ID *</label>
+                        <input type="text" class="input-control" id="payUpiTxnRef" placeholder="e.g. UPI8271039821" style="font-size: 0.85rem;">
+                      </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mt-3" style="width: 100%;"><i data-lucide="plus"></i> Add Payment Ledger</button>
+                  </form>
+                </div>
+
+                <div class="card" style="padding: 1.25rem;">
+                  <h4>Purchase Materials Bill</h4>
+                  <p class="text-secondary mb-4" style="font-size: 0.8rem;">Log material paint invoice with GST input tax credit details.</p>
+                  
+                  <form id="addBillForm">
+                    <div class="grid-form">
+                      <div class="form-group">
+                        <label>Vendor / Supplier Name</label>
+                        <input type="text" class="input-control" id="billVendor" placeholder="e.g. PaintMart HSR" required>
+                      </div>
+                      <div class="form-group">
+                        <label>Vendor GSTIN</label>
+                        <input type="text" class="input-control" id="billGSTIN" placeholder="e.g. 29AAAAA0000A1Z5">
+                      </div>
+                    </div>
+                    <div class="grid-form mt-2">
+                      <div class="form-group">
+                        <label>Invoice Number</label>
+                        <input type="text" class="input-control" id="billInvoiceNo" placeholder="e.g. INV-9821" required>
+                      </div>
+                      <div class="form-group">
+                        <label>Invoice Cost (Base in ₹)</label>
+                        <input type="number" class="input-control" id="billBaseAmount" placeholder="e.g. 15000" required>
+                      </div>
+                    </div>
+                    
+                    <div class="form-group mt-2">
+                      <label>Select Purchased Paints & Brands</label>
+                      <div id="billPaintsChecklist" style="max-height: 120px; overflow-y: auto; background: rgba(0,0,0,0.25); border: 1px solid rgba(255,255,255,0.05); padding: 0.5rem; border-radius: var(--radius-sm); display: flex; flex-direction: column; gap: 0.5rem;">
+                        <!-- Dynamically filled in app.js -->
+                      </div>
+                    </div>
+
+                    <div class="grid-form mt-2">
+                      <div class="form-group">
+                        <label>Tax Rate (%)</label>
+                        <input type="number" class="input-control" id="billGST" min="0" max="100" step="0.1" value="18" placeholder="e.g. 18" required>
+                      </div>
+                      <div class="form-group">
+                        <label>Upload Invoice Bill (Manually) *</label>
+                        <input type="file" class="input-control" id="billInvoiceUpload" accept="image/*,application/pdf">
+                      </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-accent mt-3" style="width: 100%;"><i data-lucide="plus"></i> Add Bill Record</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab: Booking Enquiries / Project Assignments -->
+            <div id="con-enquiries" class="portal-pane">
+              <h3>Customer Order Bookings</h3>
+              <p class="text-secondary mb-4">View site booking requests, manage estimates, and assign painter teams.</p>
+              
+              <div class="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Booking ID</th>
+                      <th>Client Details</th>
+                      <th>Site Address</th>
+                      <th>Estimate Cost</th>
+                      <th>Assigned Painter</th>
+                      <th>Status</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="conEnquiriesBody">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Tab: Partner Painter Applications -->
+            <div id="con-painter-apps" class="portal-pane">
+              <h3>Partner Painter Applications</h3>
+              <p class="text-secondary mb-4">Review submitted painter credentials, uploaded Aadhar card photos, and verify identity.</p>
+              
+              <div class="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Onboard Date</th>
+                      <th>Name</th>
+                      <th>Mobile</th>
+                      <th>Specialty</th>
+                      <th>Aadhar Front</th>
+                      <th>Aadhar Back</th>
+                      <th>Selfie</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="conPainterAppsBody">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Tab: Worker Directory & Payouts -->
+            <div id="con-workers" class="portal-pane">
+              <h3>Active Painter Directory</h3>
+              <p class="text-secondary mb-4">Manage painter profiles, credentials, rental agreements, and check attendance history.</p>
+              
+              <div class="tab-menu mb-4">
+                <button class="tab-menu-btn active" data-subpane="workers-list-pane">Painter Directory</button>
+                <button class="tab-menu-btn" data-subpane="workers-confidential-pane">Confidential Admin Records</button>
+                <button class="tab-menu-btn" data-subpane="workers-attendance-pane">Selfie Attendance History</button>
+              </div>
+
+              <!-- Subpane: Painter Directory -->
+              <div id="workers-list-pane" class="con-subpane active">
+                <div class="table-container">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Mobile</th>
+                        <th>Specialty</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody id="conWorkersBody">
+                      <!-- Populated dynamically -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <!-- Subpane: Confidential Admin Records -->
+              <div id="workers-confidential-pane" class="con-subpane" style="display: none;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                  <h4>Secure Confidential Profiles</h4>
+                  <button class="btn btn-success" id="btnAddNewWorkerProfile" onclick="openConfidentialWorkerModal('')"><i data-lucide="plus"></i> Add Worker Profile</button>
+                </div>
+                <div class="table-container">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Photo</th>
+                        <th>Worker Info</th>
+                        <th>PAN / Aadhar</th>
+                        <th>Rental Agreement</th>
+                        <th>Bank Account Details</th>
+                        <th>Emergency Contact</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody id="conWorkersConfidentialBody">
+                      <!-- Dynamically filled in app.js -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <!-- Subpane: Selfie Attendance History -->
+              <div id="workers-attendance-pane" class="con-subpane" style="display: none;">
+                <div class="card mb-4" style="background: rgba(255,255,255,0.01); padding: 1.25rem;">
+                  <h4 class="mb-3">Attendance History Lookup</h4>
+                  <div class="grid-form">
+                    <div class="form-group">
+                      <label>Select Worker</label>
+                      <select class="input-control select-control" id="lookupAttendanceWorker">
+                        <!-- Populated dynamically -->
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Start Date</label>
+                      <input type="date" class="input-control" id="lookupAttendanceStartDate">
+                    </div>
+                    <div class="form-group">
+                      <label>End Date</label>
+                      <input type="date" class="input-control" id="lookupAttendanceEndDate">
+                    </div>
+                  </div>
+                  <button class="btn btn-primary mt-3" onclick="queryWorkersAttendanceHistory()"><i data-lucide="search"></i> Search Records</button>
+                </div>
+                <div id="attendanceHistoryResults" class="grid-form" style="grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem;">
+                  <p class="text-center text-muted" style="grid-column: 1 / -1;">Use search filters to review attendance selfies.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab: Leads Spreadsheet -->
+            <div id="con-leads" class="portal-pane">
+              <div style="display: flex; justify-content: space-between; align-items: center;" class="mb-4">
+                <h3>Leads Spreadsheet</h3>
+                <button class="btn btn-success" id="exportLeadsBtn"><i data-lucide="download"></i> Export to CSV</button>
+              </div>
+              <p class="text-secondary mb-4">Log of registered site visit leads and WhatsApp contact requests.</p>
+              
+              <div class="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Lead ID</th>
+                      <th>Date</th>
+                      <th>Name</th>
+                      <th>Phone</th>
+                      <th>Request Type</th>
+                      <th>Address</th>
+                      <th>Reference By</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody id="conLeadsBody">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Tab: Quote Calculator Builder -->
+            <div id="con-calculator" class="portal-pane">
+              <h3>Contractor Price Estimator</h3>
+              <p class="text-secondary mb-4">Calculate prices for property owners, builders, and apartments with consolidated invoices.</p>
+              
+              <div class="calculator-section" style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 2rem;">
+                <div class="card" style="background: rgba(255,255,255,0.01); display: flex; flex-direction: column; gap: 1rem;">
+                  <!-- Customer & Project Info -->
+                  <div class="grid-form">
+                    <div class="form-group">
+                      <label>Select Customer / Lead *</label>
+                      <select class="input-control select-control" id="adminCalcCustomerSelect">
+                        <!-- Populated dynamically -->
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Project / Site Name *</label>
+                      <input type="text" class="input-control" id="adminCalcProjectName" placeholder="e.g. Navya Shree Duplex" required>
+                    </div>
+                  </div>
+
+                  <!-- Property Info -->
+                  <div class="grid-form">
+                    <div class="form-group">
+                      <label>House / Flat No. *</label>
+                      <input type="text" class="input-control" id="adminCalcHouseNo" placeholder="e.g. 402" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Floor *</label>
+                      <input type="text" class="input-control" id="adminCalcFloor" placeholder="e.g. 4th Floor" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label>Property / Building Type</label>
+                    <select class="input-control select-control" id="adminCalcCustomerType">
+                      <!-- Filled dynamically -->
+                    </select>
+                  </div>
+                  
+                  <div class="card" style="background: rgba(255,255,255,0.02); padding: 1.25rem; border: 1px solid rgba(255,255,255,0.05); margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+                    <h5 style="color: var(--secondary); font-family: var(--font-display); margin-bottom: 0.5rem;"><i data-lucide="plus-circle" style="width:14px; display:inline-block; vertical-align:middle; margin-right:4px;"></i> Add Service Component</h5>
+                    
+                    <div class="form-group">
+                      <label>Service Requirement</label>
+                      <select class="input-control select-control" id="adminCalcServiceType">
+                        <!-- Filled dynamically -->
+                      </select>
+                    </div>
+                    
+                    <div class="form-group" id="adminCalcCustomServiceGroup" style="display: none;">
+                      <label>Specify Custom Service Title *</label>
+                      <input type="text" class="input-control" id="adminCalcCustomServiceDesc" placeholder="e.g. Living room stencil painting">
+                    </div>
+                    
+                    <div class="grid-form">
+                      <div class="form-group">
+                        <label>Estimated Area (sqft)</label>
+                        <input type="number" class="input-control" id="adminCalcArea" value="1000" min="1">
+                      </div>
+                      <div class="form-group">
+                        <label>Demanded Rate per Sqft (₹)</label>
+                        <input type="number" class="input-control" id="adminCalcCustomSqftRate" placeholder="Leave blank to use default base rate">
+                      </div>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label>Select Required Paints for Work *</label>
+                      <div id="adminCalcPaintsChecklist" style="max-height: 120px; overflow-y: auto; background: rgba(0,0,0,0.25); border: 1px solid rgba(255,255,255,0.05); padding: 0.5rem; border-radius: var(--radius-sm); display: flex; flex-direction: column; gap: 0.35rem;">
+                        <!-- Filled dynamically in app.js -->
+                      </div>
+                    </div>
+                    
+                    <button type="button" class="btn btn-secondary mt-2" id="adminAddServiceToInvoiceBtn" style="border: 1px solid rgba(99,102,241,0.3); padding: 0.5rem 1rem;"><i data-lucide="plus"></i> Add Service to Estimate</button>
+                  </div>
+
+                  <!-- Added Services Table -->
+                  <div class="table-container mt-2">
+                    <h5 style="color: white; font-family: var(--font-display); margin-bottom: 0.5rem;">Itemized Services In Consolidated Invoice</h5>
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Service Details</th>
+                          <th>Area</th>
+                          <th>Rate</th>
+                          <th>Paints Selected</th>
+                          <th>Subtotal</th>
+                          <th>Action</th>
+                        </tr>
+                      </thead>
+                      <tbody id="adminCalcAddedServicesBody">
+                        <tr><td colspan="6" class="text-center text-muted" style="font-size: 0.8rem; padding: 1.5rem;">No services added to estimate yet. Select options above.</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Payment / Delivery Model</label>
+                    <div class="radio-group" id="adminCalcModelGroup">
+                      <div class="radio-btn active" data-model="lumpsum">
+                        <span class="label">Lumpsum Payment</span>
+                        <span class="desc">Labour + Paint Material included</span>
+                      </div>
+                      <div class="radio-btn" data-model="labor">
+                        <span class="label">Labour Charges Only</span>
+                        <span class="desc">Only supervisor & paint wages</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Overall Manual Pricing Customizer -->
+                  <div style="border-top: 1px dashed rgba(255,255,255,0.05); padding-top: 1rem; margin-top: 0.5rem;">
+                    <h5 style="color: var(--secondary); font-family: var(--font-display); margin-bottom: 0.75rem;">Admin Override Controls (Avoid Loss)</h5>
+                    <div class="grid-form">
+                      <div class="form-group">
+                        <label>Custom Total Lumpsum Price Override (₹)</label>
+                        <input type="number" class="input-control" id="adminCalcCustomLumpsumTotal" placeholder="e.g. 45000">
+                      </div>
+                      <div class="form-group">
+                        <label>Custom Total Labour Price Override (₹)</label>
+                        <input type="number" class="input-control" id="adminCalcCustomLaborTotal" placeholder="e.g. 25000">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card calc-summary-card">
+                  <div>
+                    <h3>Estimation Summary</h3>
+                    <p class="text-secondary" style="font-size: 0.85rem;">GST and pricing summary based on active supervisor controls</p>
+                    
+                    <div class="form-group mt-3" style="margin-bottom: 1rem;">
+                      <label style="color: white; font-weight: 500; font-size: 0.85rem;">Tax Inclusions</label>
+                      <select class="input-control select-control" id="adminCalcGSTOption" style="background: rgba(255,255,255,0.08); color: white; border: 1px solid rgba(255,255,255,0.15); padding: 0.5rem; font-size: 0.9rem;">
+                        <option value="with" style="color: #0f172a;" selected>Include GST (18%)</option>
+                        <option value="without" style="color: #0f172a;">Exclude GST (0%)</option>
+                      </select>
+                    </div>
+
+                    <div class="pricing-summary">
+                      <div class="pricing-row">
+                        <span>Flat / House No</span>
+                        <span id="adminSumHouseNo" style="font-weight:600;">-</span>
+                      </div>
+                      <div class="pricing-row">
+                        <span>Floor Level</span>
+                        <span id="adminSumFloor" style="font-weight:600;">-</span>
+                      </div>
+                      <div class="pricing-row">
+                        <span>Property Type Modifier</span>
+                        <span id="adminSumPropertyModifier">x 1.00</span>
+                      </div>
+                      
+                      <!-- Consolidated Itemized Bill List -->
+                      <div style="margin-top: 1rem; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 1rem;">
+                        <span style="font-size: 0.8rem; text-transform: uppercase; color: var(--secondary); font-weight: bold; letter-spacing: 0.05em;">Consolidated Bill Items</span>
+                        <div id="adminSumBillItems" style="margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.4rem; max-height: 120px; overflow-y: auto; padding-right: 4px;">
+                          <span class="text-muted" style="font-size: 0.8rem;">No service items added.</span>
+                        </div>
+                      </div>
+
+                      <div class="pricing-row" style="margin-top: 1rem; border-top: 1px dashed rgba(255,255,255,0.1); padding-top: 0.5rem;">
+                        <span>Consolidated Gross Base</span>
+                        <span id="adminSumGross" style="font-weight:600;">₹0.00</span>
+                      </div>
+                      <div class="pricing-row">
+                        <span>Estimated CGST (9%)</span>
+                        <span id="adminSumCGST">₹0.00</span>
+                      </div>
+                      <div class="pricing-row">
+                        <span>Estimated SGST (9%)</span>
+                        <span id="adminSumSGST">₹0.00</span>
+                      </div>
+                      <div class="pricing-row total" style="border-top: 1px dashed rgba(255,255,255,0.1); padding-top: 1rem; margin-top: 1rem;">
+                        <span>Net Consolidated Cost</span>
+                        <span id="adminSumTotal" class="val">₹0.00</span>
+                      </div>
+                    </div>
+                    
+                    <div style="display: flex; gap: 0.75rem; margin-top: 1.25rem;">
+                      <button type="button" class="btn btn-primary" onclick="calculateAdminQuote()" style="flex: 1; background: var(--secondary);"><i data-lucide="refresh-cw"></i> Recalculate</button>
+                      <button type="button" class="btn btn-secondary" onclick="printInvoiceReceipt()" style="flex: 1;"><i data-lucide="printer"></i> Print Invoice</button>
+                    </div>
+                    
+                    <button type="button" class="btn btn-success mt-3" style="width: 100%; padding: 0.85rem;" id="adminCalcCreateBookingBtn"><i data-lucide="save"></i> Save & Create Booking Invoice</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab: Manage Services -->
+            <div id="con-services" class="portal-pane">
+              <div style="display: flex; justify-content: space-between; align-items: center;" class="mb-4">
+                <h3>Manage Services Catalog</h3>
+                <button class="btn btn-success" id="adminAddServiceBtn"><i data-lucide="plus"></i> Add Service</button>
+              </div>
+              <p class="text-secondary mb-4">Add, modify or delete painting services rendered dynamically on the homepage.</p>
+              
+              <div class="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Title</th>
+                      <th>Description</th>
+                      <th>Labor Rate / sqft</th>
+                      <th>Lumpsum Rate / sqft</th>
+                      <th>Display Badge</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="conServicesBody">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Tab: Manage Paint Catalog -->
+            <div id="con-brands" class="portal-pane">
+              <div style="display: flex; justify-content: space-between; align-items: center;" class="mb-4">
+                <h3>Manage Paint Brand Catalog</h3>
+                <button class="btn btn-success" id="adminAddPaintBtn"><i data-lucide="plus"></i> Add Paint Brand</button>
+              </div>
+              <p class="text-secondary mb-4">Add or modify paint product ranges and cost rates per sqft.</p>
+              
+              <div class="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Brand</th>
+                      <th>Paint Grade / Product Name</th>
+                      <th>Cost per Sqft</th>
+                      <th>Status</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="conBrandsBody">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Tab: Manage Properties -->
+            <div id="con-properties" class="portal-pane">
+              <div style="display: flex; justify-content: space-between; align-items: center;" class="mb-4">
+                <h3>Manage Property Types</h3>
+                <button class="btn btn-success" id="adminAddPropertyBtn"><i data-lucide="plus"></i> Add Property Type</button>
+              </div>
+              <p class="text-secondary mb-4">Define property/building structures and custom cost billing modifiers.</p>
+              
+              <div class="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Building / Property Type</th>
+                      <th>Cost Modifier Factor</th>
+                      <th>Billing Label</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="conPropertiesBody">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Tab: GPS Live tracker on Canvas -->
+            <div id="con-gps" class="portal-pane">
+              <h3>Workers' GPS Live Tracking</h3>
+              <p class="text-secondary mb-4">Visual representation of workers' locations across Bangalore (HSR Layout, Bellandur, Koramangala, Indiranagar).</p>
+              
+              <!-- Route select dropdown -->
+              <div class="form-group mb-3" style="max-width: 350px;">
+                <label style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.35rem; display: block; font-weight: 500;">Direct Route Map & Site Visit ETA</label>
+                <select class="input-control select-control" id="mapRouteWorkerSelect" style="padding: 0.5rem; font-size: 0.85rem;">
+                  <option value="">-- Click Painter Pin or Select Option --</option>
+                </select>
+              </div>
+
+              <div class="gps-map-card" style="position:relative;">
+                <canvas id="gpsMapCanvas"></canvas>
+                <div id="gpsCoordsDashboard" style="position: absolute; bottom: 10px; left: 10px; background: rgba(15,23,42,0.85); border: 1px solid var(--secondary); border-radius: 4px; padding: 0.5rem; font-size: 0.75rem; font-family: monospace; color: white; pointer-events: none; z-index: 5; display: flex; flex-direction: column; gap: 2px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+                  <div>📍 GPS Radar: Active</div>
+                  <div>🛰️ Cursor: <span id="gpsLiveCursorCoords" style="color: var(--secondary);">12.92000° N, 77.64000° E</span></div>
+                  <div>🎯 Active Pin: <span id="gpsLivePinCoords" style="color: var(--accent);">None Selected</span></div>
+                </div>
+                <div class="map-overlay">
+                  <strong>Live Tracking Radar Active</strong><br>
+                  Pulsing pins represent active painters at assigned site locations.<br>
+                  <span style="font-size: 0.7rem; opacity: 0.8;"><i data-lucide="info" style="width: 10px; height: 10px; display: inline-block; vertical-align: middle;"></i> Click & drag to pan | Scroll to zoom</span>
+                </div>
+                <div class="map-controls">
+                  <button type="button" class="map-ctrl-btn" id="mapZoomIn" title="Zoom In"><i data-lucide="plus" style="width: 14px; height: 14px;"></i></button>
+                  <button type="button" class="map-ctrl-btn" id="mapZoomOut" title="Zoom Out"><i data-lucide="minus" style="width: 14px; height: 14px;"></i></button>
+                  <button type="button" class="map-ctrl-btn" id="mapReset" title="Reset view"><i data-lucide="refresh-cw" style="width: 12px; height: 12px;"></i></button>
+                  <button type="button" class="map-ctrl-btn toggle-sat" id="mapToggleSatellite">Satellite Mode</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab: Financial Ledgers (Customer payments, Material bills, labor payments, GST details) -->
+            <div id="con-finances" class="portal-pane">
+              <h3>Separated Accounting Ledgers</h3>
+              <p class="text-secondary mb-4">Separate transaction logs representing input credit, outgoing labor costs, and tax offsets.</p>
+              
+              <div class="tab-menu">
+                <button class="tab-menu-btn active" data-subpane="ledger-income">Customer Payments (Income)</button>
+                <button class="tab-menu-btn" data-subpane="ledger-materials">Materials Purchased (Bills)</button>
+                <button class="tab-menu-btn" data-subpane="ledger-labor">Labor Salaries (Expenses)</button>
+                <button class="tab-menu-btn" data-subpane="ledger-gst">GST Analysis Reports</button>
+              </div>
+
+              <!-- Subpane: Income -->
+              <div id="ledger-income" class="con-subpane active">
+                <div class="table-container">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Invoice ID</th>
+                        <th>Client</th>
+                        <th>Base Amount</th>
+                        <th>CGST (9%)</th>
+                        <th>SGST (9%)</th>
+                        <th>Total Received</th>
+                        <th>Receipt</th>
+                      </tr>
+                    </thead>
+                    <tbody id="ledgerIncomeBody">
+                      <!-- Filled dynamically -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <!-- Subpane: Materials -->
+              <div id="ledger-materials" class="con-subpane" style="display: none;">
+                <div class="table-container">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Bill ID</th>
+                        <th>Vendor</th>
+                        <th>Item Details</th>
+                        <th>Base Cost</th>
+                        <th>GST (Input Credit)</th>
+                        <th>Total Paid</th>
+                        <th>Invoice Doc</th>
+                      </tr>
+                    </thead>
+                    <tbody id="ledgerMaterialsBody">
+                      <!-- Filled dynamically -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <!-- Subpane: Labor -->
+              <div id="ledger-labor" class="con-subpane" style="display: none;">
+                <div class="table-container">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Payment ID</th>
+                        <th>Painter Name</th>
+                        <th>Project Address</th>
+                        <th>Amount Paid (Labor Charges)</th>
+                        <th>Status</th>
+                      </tr>
+                    </thead>
+                    <tbody id="ledgerLaborBody">
+                      <!-- Filled dynamically -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <!-- Subpane: GST Summary -->
+              <div id="ledger-gst" class="con-subpane" style="display: none;">
+                <div class="card" style="background: rgba(9, 13, 22, 0.4); margin-bottom: 2rem;">
+                  <h4>GST Tax Credit Summary Calculations</h4>
+                  <div class="pricing-summary" style="margin-top: 1rem; border-top: none; padding-top: 0;">
+                    <div class="pricing-row">
+                      <span>Total Output GST (Collected from Clients)</span>
+                      <span id="gstOutputSum" style="color: var(--danger); font-weight: 600;">₹0.00</span>
+                    </div>
+                    <div class="pricing-row">
+                      <span>Total Input GST (Paid for Materials - Input Tax Credit)</span>
+                      <span id="gstInputSum" style="color: var(--secondary); font-weight: 600;">- ₹0.00</span>
+                    </div>
+                    <div class="pricing-row total" style="border-top: 1px dashed rgba(255,255,255,0.1); padding-top: 1rem; margin-top: 1rem;">
+                      <span>Net GST Payable (Output - Input)</span>
+                      <span id="gstNetPayable" class="val">₹0.00</span>
+                    </div>
+                  </div>
+            </div>
+
+            <!-- Tab: Access Provider Permission settings Matrix -->
+            <div id="con-permissions" class="portal-pane" style="display: none;">
+              <h3>Access Permission Matrix</h3>
+              <p class="text-secondary mb-4">Enable or disable read, write, edit, and delete permissions for Customer and Painter/Worker roles across all views, tabs, and spreadsheets.</p>
+              
+              <div class="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Module / Tab / View</th>
+                      <th>Role</th>
+                      <th class="text-center">Read (View)</th>
+                      <th class="text-center">Write (Create)</th>
+                      <th class="text-center">Edit (Modify)</th>
+                      <th class="text-center">Delete (Remove)</th>
+                    </tr>
+                  </thead>
+                  <tbody id="conPermissionsBody">
+                    <!-- Populated dynamically via app.js -->
+                  </tbody>
+                </table>
+              </div>
+              <div style="display: flex; justify-content: flex-end; margin-top: 1.5rem;">
+                <button class="btn btn-success" onclick="savePermissionsMatrix()"><i data-lucide="save"></i> Save Permission Settings</button>
+             </div>
+            </div>
+
+            <!-- Tab: Credentials Manager -->
+            <div id="con-credentials" class="portal-pane" style="display: none;">
+              <h3>Credentials Manager</h3>
+              <p class="text-secondary mb-4">View and modify login credentials (usernames and passwords) for registered customers and workers.</p>
+              
+              <div class="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Account Role</th>
+                      <th>Account ID</th>
+                      <th>Full Name</th>
+                      <th>Phone Number</th>
+                      <th>Email / Username</th>
+                      <th>Password</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="conCredentialsBody">
+                    <!-- Populated dynamically via app.js -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Tab: Manage Portfolio & Reviews -->
+            <div id="con-portfolio" class="portal-pane" style="display: none;">
+              <h3>Portfolio & Reviews Manager</h3>
+              <p class="text-secondary mb-4">Manage customer testimonials, rating feedback, and Before/After transformation photos showcased on the public homepage.</p>
+              
+              <div class="tab-menu mb-4">
+                <button class="tab-menu-btn active" data-subpane="portfolio-media-pane">Transformation Gallery</button>
+                <button class="tab-menu-btn" data-subpane="portfolio-reviews-pane">Customer Reviews</button>
+              </div>
+
+              <!-- Subpane: Transformation Gallery -->
+              <div id="portfolio-media-pane" class="con-subpane active">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                  <h4>Project Site Portfolio</h4>
+                  <button class="btn btn-success" onclick="openPortfolioMediaModal('')"><i data-lucide="plus"></i> Add Project Media</button>
+                </div>
+                <div class="table-container">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Site Name / Title</th>
+                        <th>Before Image</th>
+                        <th>After Image</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody id="conPortfolioMediaBody">
+                      <!-- Populated dynamically via app.js -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <!-- Subpane: Customer Reviews -->
+              <div id="portfolio-reviews-pane" class="con-subpane" style="display: none;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                  <h4>Client Reviews Catalog</h4>
+                  <button class="btn btn-success" onclick="openPortfolioReviewModal('')"><i data-lucide="plus"></i> Add Testimonial</button>
+                </div>
+                <div class="table-container">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Client Name</th>
+                        <th>Service / Area</th>
+                        <th>Rating</th>
+                        <th>Review Comment</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody id="conPortfolioReviewsBody">
+                      <!-- Populated dynamically via app.js -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab: Customers Database -->
+            <div id="con-customers" class="portal-pane" style="display: none;">
+              <div style="display: flex; justify-content: space-between; align-items: center;" class="mb-4">
+                <h3>Customers History & Services Database</h3>
+                <button class="btn btn-success" onclick="openAddCustomerModal()"><i data-lucide="plus"></i> Register New Customer</button>
+              </div>
+              <p class="text-secondary mb-4">View client records, lifecycle service history, payment balances, and associated works details.</p>
+              
+              <div class="form-group mb-4" style="max-width: 400px;">
+                <label>Filter / Search Clients</label>
+                <input type="text" class="input-control" id="searchCustomersDb" placeholder="Search by name, email, or phone..." oninput="renderCustomersDatabaseTable()">
+              </div>
+
+              <div class="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Customer Name</th>
+                      <th>Contact Details</th>
+                      <th>Registered Date</th>
+                      <th>Services Availed</th>
+                      <th>Balance Due</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="conCustomersDbBody">
+                    <!-- Dynamic -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Tab: WhatsApp Alerts Communicator -->
+            <div id="con-whatsapp" class="portal-pane" style="display: none;">
+              <h3>Official WhatsApp Business Communicator</h3>
+              <p class="text-secondary mb-4">Send alerts, invoice receipts, and progress notifications directly to customers or painters via WhatsApp Web API.</p>
+              
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                <!-- Left: Form Controls -->
+                <div class="card" style="background: rgba(255,255,255,0.01); padding: 1.5rem;">
+                  <h4 class="mb-3" style="color: var(--secondary);"><i data-lucide="send"></i> Dispatch Settings</h4>
+                  
+                  <div class="form-group mb-3">
+                    <label>Recipient Directory</label>
+                    <select class="input-control select-control" id="waRecipientType" onchange="populateWaContactsSelect()">
+                      <option value="customer" selected>Customers Database</option>
+                      <option value="worker">Painter / Worker Directory</option>
+                    </select>
+                  </div>
+                  
+                  <div class="form-group mb-3">
+                    <label>Select Contact</label>
+                    <select class="input-control select-control" id="waContactSelect" onchange="updateWaTemplatePreview()">
+                      <!-- Populated dynamically -->
+                    </select>
+                  </div>
+                  
+                  <div class="form-group mb-3">
+                    <label>Notification Template Category</label>
+                    <select class="input-control select-control" id="waTemplateType" onchange="updateWaTemplatePreview()">
+                      <option value="estimate" selected>Estimate & Quotation Billing</option>
+                      <option value="survey">Site Survey Schedule</option>
+                      <option value="payment">Payment Acknowledgment Receipt</option>
+                      <option value="warning">Work Quality Alert (Painter)</option>
+                      <option value="custom">Custom Manual Message</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group mb-3" id="waCustomMsgBox" style="display: none;">
+                    <label>Custom Message Text</label>
+                    <textarea class="input-control" id="waCustomText" rows="3" placeholder="Type custom message..." oninput="updateWaTemplatePreview()"></textarea>
+                  </div>
+
+                  <button type="button" class="btn btn-success mt-2" style="width: 100%;" onclick="sendOfficialWhatsAppMessage()"><i data-lucide="external-link"></i> Launch WhatsApp Web Dispatcher</button>
+                </div>
+                
+                <!-- Right: Simulated Smartphone Screen Chat Preview -->
+                <div>
+                  <h4 class="mb-3" style="color: var(--secondary);"><i data-lucide="smartphone"></i> Live Chat Bubble Preview</h4>
+                  <div style="background: #0b141a; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); height: 350px; display: flex; flex-direction: column; overflow: hidden; font-family: sans-serif;">
+                    <!-- Chat Header -->
+                    <div style="background: #075e54; padding: 0.75rem 1rem; color: white; display: flex; align-items: center; gap: 8px; font-weight: bold; font-size: 0.85rem;">
+                      <div style="width: 30px; height: 30px; border-radius: 50%; background: #128c7e; display: flex; align-items: center; justify-content: center; font-size: 0.75rem;">MGV</div>
+                      <div>
+                        <div id="waChatHeaderName">Recipient Name</div>
+                        <div style="font-size: 0.65rem; color: #a3b899; font-weight: normal;">Online</div>
+                      </div>
+                    </div>
+                    <!-- Chat Body -->
+                    <div style="flex-grow: 1; background: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png'); padding: 1rem; display: flex; flex-direction: column; justify-content: flex-end; gap: 10px; overflow-y: auto;">
+                      <div style="align-self: flex-end; background: #d9fdd3; color: #111b21; border-radius: 8px; padding: 0.5rem 0.75rem; font-size: 0.8rem; max-width: 80%; box-shadow: 0 1px 1px rgba(0,0,0,0.1); position: relative;">
+                        <div id="waPreviewBubbleText">Template text preview will reflect here...</div>
+                        <span id="waPreviewTime" style="font-size: 0.62rem; color: #667781; float: right; margin-top: 4px; margin-left: 10px;">12:00 PM</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab: Gmail Dispatcher -->
+            <div id="con-gmail" class="portal-pane" style="display: none;">
+              <h3>Gmail Business Communicator</h3>
+              <p class="text-secondary mb-4">Draft and transmit official invoices, catalogs, and service information directly via Gmail SMTP connection helper.</p>
+              
+              <div class="card" style="max-width: 650px; background: rgba(255,255,255,0.01); padding: 2rem; border: 1px solid rgba(255,255,255,0.05);">
+                <h4 class="mb-4" style="color: var(--secondary);"><i data-lucide="mail"></i> Compose Official Email</h4>
+                
+                <div class="form-group mb-3">
+                  <label>Select Client / Recipient</label>
+                  <select class="input-control select-control" id="gmailRecipientSelect" onchange="populateGmailFields()">
+                    <!-- Dynamically populated -->
+                  </select>
+                </div>
+                
+                <div class="form-group mb-3">
+                  <label>Recipient Email Address</label>
+                  <input type="email" class="input-control" id="gmailToAddress" required placeholder="customer@gmail.com">
+                </div>
+
+                <div class="form-group mb-3">
+                  <label>Email Subject Line</label>
+                  <input type="text" class="input-control" id="gmailSubject" required placeholder="Official Quotation Invoice - MGV Painters">
+                </div>
+                
+                <div class="form-group mb-3">
+                  <label>Include Official Attachment</label>
+                  <select class="input-control select-control" id="gmailAttachmentType">
+                    <option value="invoice" selected>Consolidated Booking Invoice & Receipt PDF</option>
+                    <option value="catalog">Asian Paints / Berger Paint Brand Catalog</option>
+                    <option value="portfolio">MGV Painters Wood Polishing & Waterproofing Portfolio</option>
+                  </select>
+                </div>
+
+                <div class="form-group mb-3">
+                  <label>Short and Sweet Message Description</label>
+                  <textarea class="input-control" id="gmailMessageBody" rows="5" placeholder="Dear Customer, please find attached the details of services availed..."></textarea>
+                </div>
+
+                <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+                  <button type="button" class="btn btn-success" style="flex: 1;" onclick="sendOfficialGmailMail()"><i data-lucide="mail"></i> Compose in Gmail Client</button>
+                  <button type="button" class="btn btn-primary" style="flex: 1; background: linear-gradient(135deg, #ea580c, #c2410c);" onclick="simulateGmailSmtpSend()"><i data-lucide="send"></i> Direct SMTP Dispatch</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer style="background: rgba(9, 13, 22, 0.95); text-align: center; padding: 1.5rem; border-top: 1px solid rgba(255, 255, 255, 0.05); color: var(--text-muted); font-size: 0.85rem;">
+      <p>&copy; 2026 MGV Painters Ltd. All rights reserved. Servicing HSR Layout, Sector 1-7, Indiranagar, Koramangala & Bellandur, Bangalore.</p>
+    </footer>
+  </div>
+
+
+  <!-- ==================== WHATSAPP CONSULTATION CARD FLOATING ==================== -->
+  <div class="wa-floating-trigger" id="waRequestTrigger">
+    <i data-lucide="message-square" style="width: 20px; height: 20px;"></i>
+    <span>WhatsApp Now</span>
+  </div>
+  
+  <div class="wa-request-card" id="waRequestCard">
+    <button class="wa-card-close-btn" id="closeWaRequestBtn">&times;</button>
+    <div style="background: #075e54; color: white; padding: 1rem; border-top-left-radius: 12px; border-top-right-radius: 12px;">
+      <h4 style="display: flex; align-items: center; gap: 0.5rem;"><i data-lucide="phone" style="width: 18px;"></i> Talk to contractor Gopinath</h4>
+      <p style="font-size: 0.7rem; color: #74c0b4; margin-top: 0.25rem;">Direct supervisor pricing discussion</p>
+    </div>
+    <form id="waLeadForm" style="padding: 1rem; display: flex; flex-direction: column; gap: 0.75rem;">
+      <div class="form-group" style="margin-bottom: 0;">
+        <label style="font-size: 0.8rem; margin-bottom: 0.25rem;">Your Name *</label>
+        <input type="text" class="input-control" style="padding: 0.5rem 0.75rem; font-size: 0.85rem;" id="waLeadName" placeholder="e.g. Navya" required>
+      </div>
+      <div class="form-group" style="margin-bottom: 0;">
+        <label style="font-size: 0.8rem; margin-bottom: 0.25rem;">WhatsApp Number *</label>
+        <input type="tel" class="input-control" style="padding: 0.5rem 0.75rem; font-size: 0.85rem;" id="waLeadPhone" placeholder="e.g. 9876543210" required>
+      </div>
+      <div class="form-group" style="margin-bottom: 0;">
+        <label style="font-size: 0.8rem; margin-bottom: 0.25rem;">Site Location *</label>
+        <input type="text" class="input-control" style="padding: 0.5rem 0.75rem; font-size: 0.85rem;" id="waLeadAddress" placeholder="e.g. HSR Sector 3" required>
+      </div>
+      <div class="form-group" style="margin-bottom: 0;">
+        <label style="font-size: 0.8rem; margin-bottom: 0.25rem;">Referral / Reference By</label>
+        <input type="text" class="input-control" style="padding: 0.5rem 0.75rem; font-size: 0.85rem;" id="waLeadReferral" placeholder="e.g. Google, Friend, Banner">
+      </div>
+      <div class="form-group" style="margin-bottom: 0;">
+        <label style="font-size: 0.8rem; margin-bottom: 0.25rem;">Request Type</label>
+        <select class="input-control select-control" style="padding: 0.5rem 0.75rem; font-size: 0.85rem;" id="waLeadType">
+          <option value="WhatsApp Chat">Direct WhatsApp Chat</option>
+          <option value="Call Request">Immediate Callback Request</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-success" style="padding: 0.6rem; width: 100%; font-size: 0.9rem; margin-top: 0.5rem;"><i data-lucide="send"></i> Send Request</button>
+    </form>
+  </div>
+
+
+  <!-- ==================== WHATSAPP SMARTPHONE SIMULATOR ==================== -->
+  <div class="whatsapp-widget-container">
+    
+    <!-- WhatsApp Mobile Notification Banner -->
+    <div class="wa-banner" id="waNotificationBanner">
+      <div class="wa-banner-icon">
+        <i data-lucide="phone-call" style="width: 16px; height: 16px;"></i>
+      </div>
+      <div class="wa-banner-content">
+        <div class="title">WhatsApp from MGV Painters</div>
+        <div class="text" id="waBannerMsg">"our technician will get back..."</div>
+      </div>
+    </div>
+
+    <!-- Smartphone Mock -->
+    <div class="phone-wrapper" id="waPhoneMock">
+      <button class="phone-close-btn" id="closePhoneBtn">&times;</button>
+      <div class="phone-notch"></div>
+      
+      <div class="whatsapp-header">
+        <div class="whatsapp-avatar">M</div>
+        <div class="whatsapp-chat-info">
+          <div class="name">MGV Painters Support</div>
+          <div class="status">online</div>
+        </div>
+      </div>
+
+      <!-- Messages feed -->
+      <div class="whatsapp-body" id="waChatBody">
+        <div class="whatsapp-bubble incoming">
+          Hello! Thanks for choosing MGV Painters. Let me know your query or upload documents.
+          <span class="bubble-time" id="waInitTime">12:00 PM</span>
+        </div>
+      </div>
+
+      <div class="whatsapp-footer">
+        <div class="whatsapp-input-sim">Type a message...</div>
+        <button class="whatsapp-send-btn">
+          <i data-lucide="send" style="width: 14px; height: 14px;"></i>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- ==================== DYNAMIC ADD/EDIT FORM MODAL ==================== -->
+  <div id="adminFormModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 10000; justify-content: center; align-items: center; padding: 2rem;">
+    <div class="card" style="max-width: 500px; width: 100%; border-color: var(--primary); background: #0c0b1e; box-shadow: 0 0 30px rgba(99, 102, 241, 0.2); max-height: 90vh; overflow-y: auto; position: relative;">
+      <button class="modal-close-cross" onclick="document.getElementById('adminFormModal').style.display='none'">&times;</button>
+      <h3 id="modalTitle" class="mb-4" style="color: white; font-family: var(--font-display);">Add/Edit Entity</h3>
+      <form id="modalForm">
+        <div id="modalFieldsContainer" style="display: flex; flex-direction: column; gap: 1rem;">
+          <!-- Dynamically Populated Fields -->
+        </div>
+        <div style="display: flex; gap: 1rem; justify-content: flex-end;" class="mt-4">
+          <button type="button" class="btn btn-secondary" id="closeModalBtn">Cancel</button>
+          <button type="submit" class="btn btn-success" id="submitModalBtn">Save Changes</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- ==================== PROJECT HOURS & ACTIONS LOGGING MODAL ==================== -->
+  <div id="projectWorkModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 10005; justify-content: center; align-items: center; padding: 2rem;">
+    <div class="card" style="max-width: 550px; width: 100%; background: #0c0b1e; border: 1px solid var(--primary-glow); box-shadow: 0 0 30px rgba(99, 102, 241, 0.25); max-height: 90vh; overflow-y: auto; position: relative;">
+      <button class="modal-close-cross" onclick="document.getElementById('projectWorkModal').style.display='none'">&times;</button>
+      <h3 style="color: white; font-family: var(--font-display); margin-bottom: 0.5rem;">Log Hours & Action Notes</h3>
+      <p class="text-secondary mb-4" style="font-size: 0.85rem;">Project ID: <span id="pwModalProjId" style="color: var(--secondary); font-weight: bold;"></span></p>
+      
+      <form id="projectWorkForm">
+        <input type="hidden" id="pwModalEnquiryId">
+        <div style="display: flex; flex-direction: column; gap: 1rem;">
+          <div class="grid-form">
+            <div class="form-group">
+              <label>Estimated Project Hours</label>
+              <input type="number" class="input-control" id="pwEstHours" placeholder="e.g. 80" min="1">
+            </div>
+            <div class="form-group">
+              <label>Log Daily Working Hours (Add to Total)</label>
+              <input type="number" class="input-control" id="pwAddHours" placeholder="e.g. 8" min="0" step="0.5">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label>Current Total Hours Logged: <span id="pwTotalLoggedLabel" style="color: var(--primary); font-weight: 600;">0 hrs</span></label>
+          </div>
+
+          <div class="form-group">
+            <label>Supervisor Actions & Status Notes (Avoid Future Delay)</label>
+            <textarea class="input-control" id="pwStatusNotes" rows="3" placeholder="Write current actions taken, supervisor reviews, or direct guidelines..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label style="color: var(--danger);">Quality Faults Log (Avoid Repeating on Next Projects)</label>
+            <textarea class="input-control" id="pwFaultLogs" rows="3" placeholder="Note down any wall preparation issues, sanding complaints, paint brand errors, or customer remarks..."></textarea>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 1rem; justify-content: flex-end;" class="mt-4">
+          <button type="button" class="btn btn-secondary" id="closePwModalBtn" onclick="closeProjectWorkModal()">Cancel</button>
+          <button type="submit" class="btn btn-success">Update Project Details</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==================== CONFIDENTIAL WORKER PROFILE MODAL ==================== -->
+  <div id="workerProfileModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 10006; justify-content: center; align-items: center; padding: 2rem;">
+    <div class="card" style="max-width: 600px; width: 100%; background: #0c0b1e; border: 1px solid var(--primary-glow); box-shadow: 0 0 30px rgba(99, 102, 241, 0.25); max-height: 90vh; overflow-y: auto; position: relative;">
+      <button class="modal-close-cross" onclick="document.getElementById('workerProfileModal').style.display='none'">&times;</button>
+      <h3 style="color: white; font-family: var(--font-display); margin-bottom: 0.5rem;">Worker Confidential Profile</h3>
+      <p class="text-secondary mb-4" style="font-size: 0.85rem;">Confidential records for admin authorization only.</p>
+      
+      <form id="workerProfileForm">
+        <input type="hidden" id="wpWorkerId">
+        <div style="display: flex; flex-direction: column; gap: 1rem;">
+          <div class="grid-form">
+            <div class="form-group">
+              <label>Full Name *</label>
+              <input type="text" class="input-control" id="wpName" required placeholder="e.g. Raj Kumar">
+            </div>
+            <div class="form-group">
+              <label>Contact Number *</label>
+              <input type="tel" class="input-control" id="wpPhone" required placeholder="e.g. 9988776655">
+            </div>
+          </div>
+
+          <div class="grid-form">
+            <div class="form-group">
+              <label>Address *</label>
+              <input type="text" class="input-control" id="wpAddress" required placeholder="e.g. HSR Sector 2, Bangalore">
+            </div>
+            <div class="form-group">
+              <label>Emergency Contact No *</label>
+              <input type="tel" class="input-control" id="wpEmergencyPhone" required placeholder="e.g. 9812345670">
+            </div>
+          </div>
+
+          <div class="grid-form">
+            <div class="form-group">
+              <label>PAN Card Number *</label>
+              <input type="text" class="input-control" id="wpPan" required placeholder="e.g. ABCDE1234F">
+            </div>
+            <div class="form-group">
+              <label>Aadhar Card Number *</label>
+              <input type="text" class="input-control" id="wpAadhar" required placeholder="e.g. 1234 5678 9012">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Rental Agreement Details (Details/Expiry) *</label>
+            <input type="text" class="input-control" id="wpRental" required placeholder="e.g. Expired on 2027-12-31, Owner: Mr. Raju">
+          </div>
+
+          <div style="border-top: 1px dashed rgba(255,255,255,0.05); padding-top: 1rem;">
+            <h5 style="color: var(--secondary); margin-bottom: 0.75rem;">Bank Account Details</h5>
+            <div class="grid-form">
+              <div class="form-group">
+                <label>Account Number *</label>
+                <input type="text" class="input-control" id="wpBankAcct" required placeholder="e.g. 50100012345678">
+              </div>
+              <div class="form-group">
+                <label>Bank IFSC Code *</label>
+                <input type="text" class="input-control" id="wpBankIfsc" required placeholder="e.g. HDFC0001234">
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-form mt-2">
+            <div class="form-group">
+              <label>Passport Size Photo</label>
+              <input type="file" class="input-control" id="wpPhotoUpload" accept="image/*">
+            </div>
+            <div class="form-group" style="text-align: center; display: flex; align-items: center; justify-content: center;">
+              <img id="wpPhotoPreview" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid rgba(255,255,255,0.1);">
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 1rem; justify-content: flex-end;" class="mt-4">
+          <button type="button" class="btn btn-secondary" id="closeWpModalBtn" onclick="closeConfidentialWorkerModal()">Cancel</button>
+          <button type="submit" class="btn btn-success">Save Confidential Profile</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==================== PORTFOLIO MEDIA MODAL ==================== -->
+  <div id="portfolioMediaModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 10007; justify-content: center; align-items: center; padding: 2rem;">
+    <div class="card" style="max-width: 500px; width: 100%; background: #0c0b1e; border: 1px solid var(--primary-glow); box-shadow: 0 0 30px rgba(99, 102, 241, 0.25); max-height: 90vh; overflow-y: auto; position: relative;">
+      <button class="modal-close-cross" onclick="closePortfolioMediaModal()">&times;</button>
+      <h3 style="color: white; font-family: var(--font-display); margin-bottom: 0.5rem;">Add/Edit Project Site Showcase</h3>
+      
+      <form id="portfolioMediaForm" style="margin-top: 1rem; display: flex; flex-direction: column; gap: 1rem;">
+        <input type="hidden" id="pmId">
+        <div class="form-group">
+          <label>Project Title / Site Name *</label>
+          <input type="text" class="input-control" id="pmTitle" required placeholder="e.g. HSR Layout Villa Showcase">
+        </div>
+        
+        <div class="form-group">
+          <label>Video Showcase Link / URL (Optional)</label>
+          <input type="text" class="input-control" id="pmVideoUrl" placeholder="e.g. https://www.youtube.com/embed/... or MP4 path">
+        </div>
+        
+        <div class="grid-form">
+          <div class="form-group">
+            <label>Before Painting Photo *</label>
+            <input type="file" class="input-control" id="pmBeforeUpload" accept="image/*">
+            <div style="text-align: center; margin-top: 0.5rem;">
+              <img id="pmBeforePreview" src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=150&q=80" style="width: 80px; height: 60px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(255,255,255,0.15);">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>After Painting Photo *</label>
+            <input type="file" class="input-control" id="pmAfterUpload" accept="image/*">
+            <div style="text-align: center; margin-top: 0.5rem;">
+              <img id="pmAfterPreview" src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=150&q=80" style="width: 80px; height: 60px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(255,255,255,0.15);">
+            </div>
+          </div>
+        </div>
+        
+        <div style="display: flex; gap: 1rem; justify-content: flex-end;" class="mt-2">
+          <button type="button" class="btn btn-secondary" onclick="closePortfolioMediaModal()">Cancel</button>
+          <button type="submit" class="btn btn-success">Save Showcase</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==================== PORTFOLIO REVIEW MODAL ==================== -->
+  <div id="portfolioReviewModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 10008; justify-content: center; align-items: center; padding: 2rem;">
+    <div class="card" style="max-width: 500px; width: 100%; background: #0c0b1e; border: 1px solid var(--primary-glow); box-shadow: 0 0 30px rgba(99, 102, 241, 0.25); max-height: 90vh; overflow-y: auto; position: relative;">
+      <button class="modal-close-cross" onclick="closePortfolioReviewModal()">&times;</button>
+      <h3 style="color: white; font-family: var(--font-display); margin-bottom: 0.5rem;">Add/Edit Customer Testimonial</h3>
+      
+      <form id="portfolioReviewForm" style="margin-top: 1rem; display: flex; flex-direction: column; gap: 1rem;">
+        <input type="hidden" id="prId">
+        <div class="grid-form">
+          <div class="form-group">
+            <label>Customer Name *</label>
+            <input type="text" class="input-control" id="prClientName" required placeholder="e.g. Kavya Sen">
+          </div>
+          <div class="form-group">
+            <label>Location / Area *</label>
+            <input type="text" class="input-control" id="prLocation" required placeholder="e.g. HSR Sector 2">
+          </div>
+        </div>
+
+        <div class="grid-form">
+          <div class="form-group">
+            <label>Rating (1-5 Stars) *</label>
+            <select class="input-control select-control" id="prRating">
+              <option value="5">5 Stars</option>
+              <option value="4">4 Stars</option>
+              <option value="3">3 Stars</option>
+              <option value="2">2 Stars</option>
+              <option value="1">1 Star</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Service Type *</label>
+            <input type="text" class="input-control" id="prService" required placeholder="e.g. Interior Painting">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Review Comment *</label>
+          <textarea class="input-control" id="prComment" rows="3" required placeholder="Write the customer's review feedback..."></textarea>
+        </div>
+
+        <div style="display: flex; gap: 1rem; justify-content: flex-end;" class="mt-2">
+          <button type="button" class="btn btn-secondary" onclick="closePortfolioReviewModal()">Cancel</button>
+          <button type="submit" class="btn btn-success">Save Review</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="paymentReceiptModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 15010; justify-content: center; align-items: center; padding: 2rem;">
+    <div class="card" style="max-width: 450px; width: 100%; background: #0d121d; border: 1px solid var(--primary-glow); box-shadow: 0 0 25px rgba(99, 102, 241, 0.2); text-align: center; padding: 2rem; position: relative; max-height: 90vh; overflow-y: auto;">
+      <button class="modal-close-cross" onclick="document.getElementById('paymentReceiptModal').style.display='none'">&times;</button>
+      <div style="width: 48px; height: 48px; border-radius: 50%; background: rgba(16, 185, 129, 0.1); color: #10b981; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem auto; font-size: 1.5rem;">
+        <i data-lucide="check-circle"></i>
+      </div>
+      <h3 style="color: white; font-family: var(--font-display); margin-bottom: 0.25rem;">Payment Receipt Details</h3>
+      <p class="text-secondary" style="font-size: 0.8rem; margin-bottom: 1.5rem;">MGV Painters &bull; Verified Client Transaction</p>
+      
+      <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 1rem; text-align: left; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1.5rem;" id="receiptDetailsContent">
+        <!-- Filled dynamically -->
+      </div>
+      
+      <div id="receiptQrContainer" style="display: none; text-align: center; margin-bottom: 1.5rem; padding: 1rem; background: #fff; border-radius: 6px; display: inline-block;">
+        <canvas id="receiptQrCanvas" width="130" height="130" style="background: white; border-radius: 4px; display: block; margin: 0 auto;"></canvas>
+        <p style="color: #000; font-size: 0.7rem; margin-top: 0.5rem; font-weight: bold; margin-bottom: 0;">pay@mgvpainters.bhim</p>
+      </div>
+      
+      <div>
+        <button class="btn btn-secondary" onclick="document.getElementById('paymentReceiptModal').style.display='none'" style="width: 100%;">Close Receipt</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== SHARE INVOICE PROOF MODAL ==================== -->
+  <div id="adminInvoiceShareModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 15020; justify-content: center; align-items: center; padding: 2rem;">
+    <div class="card" style="max-width: 500px; width: 100%; background: #0d121d; border: 1px solid var(--primary-glow); box-shadow: 0 0 25px rgba(99, 102, 241, 0.25); text-align: left; padding: 2rem; position: relative; max-height: 90vh; overflow-y: auto;">
+      <button class="modal-close-cross" onclick="document.getElementById('adminInvoiceShareModal').style.display='none'">&times;</button>
+      <h3 style="color: white; font-family: var(--font-display); margin-bottom: 0.25rem;">Estimate Invoice Ready!</h3>
+      <p class="text-secondary" style="font-size: 0.8rem; margin-bottom: 1.5rem;">Share the consolidated invoice with the customer directly.</p>
+      
+      <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 1rem; text-align: left; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1.5rem;">
+        <div><strong>Project:</strong> <span id="shareInvoiceProjectName" style="float: right; color: var(--secondary); font-weight:600;">Duplex Project</span></div>
+        <div><strong>Customer Name:</strong> <span id="shareInvoiceCustName" style="float: right; color: white;">Navya Shree</span></div>
+        <div><strong>Phone:</strong> <span id="shareInvoiceCustPhone" style="float: right; color: white;">9876543210</span></div>
+        <div><strong>Email:</strong> <span id="shareInvoiceCustEmail" style="float: right; color: white;">navya@outlook.com</span></div>
+        <div style="border-top: 1px dashed rgba(255,255,255,0.1); margin-top: 0.5rem; padding-top: 0.5rem;"><strong>Base Amount:</strong> <span id="shareInvoiceBase" style="float: right; color: white;">₹0.00</span></div>
+        <div><strong>GST Status:</strong> <span id="shareInvoiceGST" style="float: right; color: white;">₹0.00</span></div>
+        <div style="font-size: 1.05rem; font-weight: bold; color: white; border-top: 1px dashed rgba(255,255,255,0.1); margin-top: 0.5rem; padding-top: 0.5rem;"><strong>Net Cost:</strong> <span id="shareInvoiceTotal" style="float: right; color: var(--accent);">₹0.00</span></div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1rem;">
+        <!-- WhatsApp Option -->
+        <a id="shareInvoiceWhatsAppBtn" target="_blank" class="btn btn-success" style="width: 100%; background: #25d366; box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2); text-decoration:none;"><i data-lucide="message-square"></i> Send Official WhatsApp Notification</a>
+        
+        <!-- Mail Option -->
+        <button id="shareInvoiceMailBtn" class="btn btn-primary" style="width: 100%; background: linear-gradient(135deg, #3b82f6, #1d4ed8); box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);"><i data-lucide="mail"></i> Send Official Email Notification</button>
+      </div>
+
+      <div>
+        <button class="btn btn-secondary" onclick="document.getElementById('adminInvoiceShareModal').style.display='none'" style="width: 100%;">Close Modal</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== WORKER SPREADSHEET LEDGER & PROFILE MODAL ==================== -->
+  <div id="workerSpreadsheetModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 15030; justify-content: center; align-items: center; padding: 2rem;">
+    <div class="card" style="max-width: 900px; width: 100%; max-height: 90vh; overflow-y: auto; background: #0c0b1e; border: 1px solid var(--secondary); box-shadow: 0 0 30px rgba(234, 88, 12, 0.25); padding: 2rem; position: relative;">
+      
+      <!-- Close Button -->
+      <button class="phone-close-btn" onclick="document.getElementById('workerSpreadsheetModal').style.display='none'" style="top: 15px; right: 20px; font-size: 1.5rem; background:transparent; border:none; color:white; cursor:pointer;">&times;</button>
+      
+      <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(255,255,255,0.05); padding-bottom: 1rem;">
+        <div id="sheetWorkerAvatar" style="width: 60px; height: 60px; border-radius: 50%; background: var(--secondary); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: white; font-weight: bold; overflow: hidden;">W</div>
+        <div>
+          <h3 id="sheetWorkerName" style="color: white; margin-bottom: 0.15rem;">Worker Name</h3>
+          <p class="text-secondary" style="font-size: 0.8rem; margin: 0;">Employee Ledger Spreadsheet &bull; ID: <span id="sheetWorkerId" style="font-weight: 600; color: var(--accent);">W-001</span></p>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+        
+        <!-- Left: Biodata & Profile Details -->
+        <div>
+          <h4 style="color: var(--secondary); margin-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.25rem;"><i data-lucide="user" style="width:14px; display:inline-block; vertical-align:middle; margin-right:4px;"></i> Personal Biodata & Credentials</h4>
+          <div style="background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.03); border-radius: 6px; padding: 1rem; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.85rem;">
+            <div><strong>Mobile Number:</strong> <span id="sheetMobile" style="float: right; color: white;">-</span></div>
+            <div><strong>Email ID:</strong> <span id="sheetEmail" style="float: right; color: white;">-</span></div>
+            <div><strong>Aadhar Card No:</strong> <span id="sheetAadhar" style="float: right; color: white;">-</span></div>
+            <div><strong>PAN Card No:</strong> <span id="sheetPAN" style="float: right; color: white;">-</span></div>
+            <div><strong>Rental Agreement Status:</strong> <span id="sheetRental" style="float: right; color: white;">-</span></div>
+            <div><strong>Emergency Contact:</strong> <span id="sheetEmergency" style="float: right; color: white;">-</span></div>
+            <div><strong>Bank Account Details:</strong> <span id="sheetBankDetails" style="float: right; color: white;">-</span></div>
+          </div>
+          
+          <h4 style="color: var(--secondary); margin-top: 1.5rem; margin-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.25rem;"><i data-lucide="star" style="width:14px; display:inline-block; vertical-align:middle; margin-right:4px;"></i> Remarks & Ratings</h4>
+          <div style="background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.03); border-radius: 6px; padding: 1rem; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.85rem;">
+            <div><strong>Quality Rating:</strong> <span id="sheetRating" style="float: right; color: var(--accent);">★★★★★</span></div>
+            <div><strong>Performance Remarks:</strong> <span id="sheetRemarks" style="float: right; color: white; text-align: right; max-width: 200px; display: inline-block;">-</span></div>
+          </div>
+        </div>
+        
+        <!-- Right: Financial Statement & Work Logs -->
+        <div>
+          <h4 style="color: var(--secondary); margin-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.25rem;"><i data-lucide="indian-rupee" style="width:14px; display:inline-block; vertical-align:middle; margin-right:4px;"></i> Financial Statement</h4>
+          <div style="background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.03); border-radius: 6px; padding: 1rem; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.85rem;">
+            <div><strong>Base Salary (Daily):</strong> <span id="sheetBaseSalary" style="float: right; color: white;">-</span></div>
+            <div><strong>Advances Credited:</strong> <span id="sheetAdvances" style="float: right; color: #10b981;">₹0.00</span></div>
+            <div><strong>Pending Salary Debit:</strong> <span id="sheetPendingSalaries" style="float: right; color: #ef4444;">₹0.00</span></div>
+          </div>
+
+          <h4 style="color: var(--secondary); margin-top: 1.5rem; margin-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.25rem;"><i data-lucide="activity" style="width:14px; display:inline-block; vertical-align:middle; margin-right:4px;"></i> Work & Hours Summary</h4>
+          <div style="background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.03); border-radius: 6px; padding: 1rem; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.85rem;">
+            <div><strong>Active Projects:</strong> <span id="sheetProjects" style="float: right; color: white;">-</span></div>
+            <div><strong>Monthly Working Hours:</strong> <span id="sheetMonthlyHours" style="float: right; color: white;">0 hrs</span></div>
+            <div><strong>Total Lifetime Hours:</strong> <span id="sheetLifetimeHours" style="float: right; color: var(--accent); font-weight:600;">0 hrs</span></div>
+            <div><strong>Pending Works / Audits:</strong> <span id="sheetPendingWorks" style="float: right; color: white;">-</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Salary History Table -->
+      <div style="margin-top: 2rem;">
+        <h4 style="color: var(--secondary); margin-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.25rem;"><i data-lucide="history" style="width:14px; display:inline-block; vertical-align:middle; margin-right:4px;"></i> dynamic Payout Ledger & Salaries History</h4>
+        <div class="table-container" style="max-height: 200px; overflow-y: auto;">
+          <table>
+            <thead>
+              <tr>
+                <th>Date / Time</th>
+                <th>Transaction ID</th>
+                <th>Hours Worked</th>
+                <th>Amount Disbursed</th>
+                <th>Routing Gateway</th>
+              </tr>
+            </thead>
+            <tbody id="sheetWagesHistoryBody">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==================== SALARY NETBANKING / UPI ROUTING MODAL ==================== -->
+  <div id="paySalaryModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 15040; justify-content: center; align-items: center; padding: 2rem;">
+    <div class="card" style="max-width: 480px; width: 100%; background: #0d121d; border: 1px solid var(--secondary); box-shadow: 0 0 25px rgba(234, 88, 12, 0.2); padding: 2rem; position: relative; max-height: 90vh; overflow-y: auto;">
+      <button class="modal-close-cross" onclick="document.getElementById('paySalaryModal').style.display='none'">&times;</button>
+      <h3 style="color: white; font-family: var(--font-display); margin-bottom: 0.25rem;">Initiate Salary Payout</h3>
+      <p class="text-secondary" style="font-size: 0.8rem; margin-bottom: 1.5rem;">Initiate worker wages and record transaction to individual history sheet.</p>
+      
+      <form id="paySalaryForm">
+        <input type="hidden" id="paySalWorkerId">
+        
+        <div class="form-group">
+          <label>Worker Name</label>
+          <input type="text" class="input-control" id="paySalWorkerName" readonly style="background: rgba(255,255,255,0.05); color: white;">
+        </div>
+        
+        <div class="grid-form">
+          <div class="form-group">
+            <label>Amount to Disburse (₹)</label>
+            <input type="number" class="input-control" id="paySalAmount" value="1200" required>
+          </div>
+          <div class="form-group">
+            <label>Hours Accounted</label>
+            <input type="number" class="input-control" id="paySalHours" value="8" required>
+          </div>
+        </div>
+
+        <div class="form-group mt-2">
+          <label>Choose UPI Payout Route</label>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.75rem;">
+            <!-- Google Pay -->
+            <button type="button" class="btn btn-secondary" onclick="routePayoutGateway('gpay')" style="font-size: 0.8rem; padding: 0.5rem; justify-content: flex-start; gap: 6px; background: rgba(66, 133, 244, 0.15); border: 1px solid rgba(66, 133, 244, 0.3); color: white;">
+              🔵 Google Pay
+            </button>
+            <!-- PhonePe -->
+            <button type="button" class="btn btn-secondary" onclick="routePayoutGateway('phonepe')" style="font-size: 0.8rem; padding: 0.5rem; justify-content: flex-start; gap: 6px; background: rgba(95, 37, 159, 0.15); border: 1px solid rgba(95, 37, 159, 0.3); color: white;">
+              🟣 PhonePe
+            </button>
+            <!-- Paytm -->
+            <button type="button" class="btn btn-secondary" onclick="routePayoutGateway('paytm')" style="font-size: 0.8rem; padding: 0.5rem; justify-content: flex-start; gap: 6px; background: rgba(0, 185, 245, 0.15); border: 1px solid rgba(0, 185, 245, 0.3); color: white;">
+              🔵 Paytm UPI
+            </button>
+            <!-- BHIM UPI -->
+            <button type="button" class="btn btn-secondary" onclick="routePayoutGateway('bhim')" style="font-size: 0.8rem; padding: 0.5rem; justify-content: flex-start; gap: 6px; background: rgba(234, 88, 12, 0.15); border: 1px solid rgba(234, 88, 12, 0.3); color: white;">
+              🟠 BHIM UPI
+            </button>
+          </div>
+          
+          <label>Choose Corporate Netbanking</label>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+            <!-- SBI Netbanking -->
+            <button type="button" class="btn btn-secondary" onclick="routePayoutGateway('sbi')" style="font-size: 0.8rem; padding: 0.5rem; justify-content: flex-start; gap: 6px;">
+              🏛️ SBI Netbanking
+            </button>
+            <!-- HDFC Netbanking -->
+            <button type="button" class="btn btn-secondary" onclick="routePayoutGateway('hdfc')" style="font-size: 0.8rem; padding: 0.5rem; justify-content: flex-start; gap: 6px;">
+              🏛️ HDFC Corporate
+            </button>
+            <!-- ICICI Netbanking -->
+            <button type="button" class="btn btn-secondary" onclick="routePayoutGateway('icici')" style="font-size: 0.8rem; padding: 0.5rem; justify-content: flex-start; gap: 6px;">
+              🏛️ ICICI Netbanking
+            </button>
+          </div>
+        </div>
+
+        <div class="form-group mt-3">
+          <label>Worker's UPI ID / Virtual Address (VPA)</label>
+          <input type="text" class="input-control" id="paySalWorkerVpa" placeholder="e.g. worker@okaxis" value="">
+        </div>
+
+        <div class="form-group mt-3" style="display:none;" id="payoutStatusLogBox">
+          <span style="font-size:0.75rem; color:var(--secondary); font-weight:600;" id="payoutStatusMessage">Redirecting to banking portal...</span>
+        </div>
+
+        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+          <button type="submit" class="btn btn-success" style="flex: 1;"><i data-lucide="check-circle"></i> Save & Record Payout</button>
+          <button type="button" class="btn btn-secondary" onclick="document.getElementById('paySalaryModal').style.display='none'">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==================== CUSTOMER HISTORY & SERVICES MODAL ==================== -->
+  <div id="customerHistoryModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 15050; justify-content: center; align-items: center; padding: 2rem;">
+    <div class="card" style="max-width: 800px; width: 100%; max-height: 90vh; overflow-y: auto; background: #0b0f19; border: 1px solid var(--secondary); box-shadow: 0 0 25px rgba(234, 88, 12, 0.2); padding: 2rem; position: relative;">
+      
+      <!-- Close Button -->
+      <button class="phone-close-btn" onclick="document.getElementById('customerHistoryModal').style.display='none'" style="top: 15px; right: 20px; font-size: 1.5rem; background:transparent; border:none; color:white; cursor:pointer;">&times;</button>
+      
+      <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(255,255,255,0.05); padding-bottom: 1rem;">
+        <div style="width: 50px; height: 50px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: white; font-weight: bold;" id="custHistoryAvatar">C</div>
+        <div>
+          <h3 id="custHistoryName" style="color: white; margin-bottom: 0.15rem;">Customer Name</h3>
+          <p class="text-secondary" style="font-size: 0.8rem; margin: 0;">Registered Customer &bull; Phone: <span id="custHistoryPhone" style="font-weight: 600; color: var(--secondary);">-</span></p>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+        <div style="background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.03); border-radius: 6px; padding: 1rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.6rem;">
+          <div><strong>Email Address:</strong> <span id="custHistoryEmail" style="float: right; color: white;">-</span></div>
+          <div><strong>Site Address:</strong> <span id="custHistoryAddress" style="float: right; color: white; text-align: right; max-width: 200px;">-</span></div>
+        </div>
+        <div style="background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.03); border-radius: 6px; padding: 1rem; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.6rem;">
+          <div><strong>Total Invoiced Amount:</strong> <span id="custHistoryTotalBilled" style="float: right; color: white; font-weight:600;">₹0.00</span></div>
+          <div><strong>Total Payments Made:</strong> <span id="custHistoryTotalPaid" style="float: right; color: #10b981; font-weight:600;">₹0.00</span></div>
+          <div><strong>Outstanding Dues:</strong> <span id="custHistoryTotalOwed" style="float: right; color: #ef4444; font-weight:600;">₹0.00</span></div>
+        </div>
+      </div>
+
+      <h4 style="color: var(--secondary); margin-bottom: 0.75rem; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.25rem;"><i data-lucide="clipboard-list" style="width:14px; display:inline-block; vertical-align:middle; margin-right:4px;"></i> Availed Services & Projects History</h4>
+      <div class="table-container" style="max-height: 250px; overflow-y: auto;">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Project ID / Name</th>
+              <th>Services Performed</th>
+              <th>Invoice Net Cost</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="custHistoryServicesBody">
+            <!-- Dynamic -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== REGISTER NEW CUSTOMER MODAL ==================== -->
+  <div id="addCustomerProfileModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 15060; justify-content: center; align-items: center; padding: 2rem;">
+    <div class="card" style="max-width: 450px; width: 100%; background: #0c0b1e; border: 1px solid var(--secondary); box-shadow: 0 0 25px rgba(234, 88, 12, 0.2); padding: 2rem; position: relative;">
+      
+      <!-- Close Button -->
+      <button class="phone-close-btn" onclick="document.getElementById('addCustomerProfileModal').style.display='none'" style="top: 15px; right: 20px; font-size: 1.5rem; background:transparent; border:none; color:white; cursor:pointer;">&times;</button>
+      
+      <h3 style="color: white; font-family: var(--font-display); margin-bottom: 0.25rem;">Register Customer</h3>
+      <p class="text-secondary" style="font-size: 0.8rem; margin-bottom: 1.5rem;">Create a new client profile record in the database.</p>
+      
+      <form id="addCustomerProfileForm">
+        <div class="form-group">
+          <label>Customer Name</label>
+          <input type="text" class="input-control" id="newCustName" required placeholder="e.g. Rajesh Kumar">
+        </div>
+        <div class="form-group">
+          <label>Mobile Contact</label>
+          <input type="text" class="input-control" id="newCustPhone" required placeholder="e.g. 9876543210">
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" class="input-control" id="newCustEmail" required placeholder="e.g. rajesh@gmail.com">
+        </div>
+        <div class="form-group">
+          <label>Standard Site Address</label>
+          <input type="text" class="input-control" id="newCustAddress" placeholder="e.g. Flat 302, Phase 1, HSR Layout">
+        </div>
+        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+          <button type="submit" class="btn btn-success" style="flex: 1;"><i data-lucide="check-circle"></i> Save Record</button>
+          <button type="button" class="btn btn-secondary" onclick="document.getElementById('addCustomerProfileModal').style.display='none'">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Application JS Code -->
+  <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,1 +1,2 @@
-# MGVPainters
+# MGV Painters
+Painting services

@@ -1,0 +1,7 @@
+{
+  "name": "mgv-painters",
+  "version": "1.0.0",
+  "scripts": {
+    "copy-logo": "node -e \"require('fs').copyFileSync('C:/Users/navya shree g n/.gemini/antigravity-ide/brain/9c6ddf4d-c597-4375-b5ae-8b7d4be3e86a/media__1785592532437.jpg', 'logo.jpg')\""
+  }
+}

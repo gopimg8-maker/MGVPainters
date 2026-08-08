@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </radialGradient>
+    <!-- Gold Metallic Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <!-- Indigo/Cyan Glow Gradient -->
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <!-- Shadow Filter for Premium depth -->
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" rx="30" />
+
+  <g filter="url(#dropShadow)" transform="translate(40, 40)">
+    <!-- Stylized Brush Stroke forming M -->
+    <path d="M 40 220 C 40 140, 60 70, 90 70 C 110 70, 120 100, 130 130 C 140 160, 150 220, 160 220" 
+          fill="none" stroke="url(#glowGrad)" stroke-width="24" stroke-linecap="round" />
+    
+    <!-- Stylized Stroke forming G -->
+    <path d="M 160 170 C 150 120, 180 80, 220 80 C 260 80, 280 120, 280 160 C 280 200, 250 230, 210 230 C 180 230, 165 210, 165 190 C 165 170, 185 170, 215 170" 
+          fill="none" stroke="url(#goldGrad)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Stylized Stroke forming V -->
+    <path d="M 230 110 C 250 160, 260 220, 275 220 C 290 220, 310 130, 330 80" 
+          fill="none" stroke="url(#glowGrad)" stroke-width="22" stroke-linecap="round" />
+
+    <!-- Sleek Accent Dot -->
+    <circle cx="210" cy="140" r="10" fill="#ffffff" />
+  </g>
+
+  <!-- Premium Typography -->
+  <text x="50%" y="325" text-anchor="middle" font-family="'Outfit', 'Inter', sans-serif" font-size="28" font-weight="800" fill="#ffffff" letter-spacing="4">MGV PAINTERS</text>
+  <text x="50%" y="355" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#a5b4fc" letter-spacing="2">PREMIUM PAINTING &amp; RENOVATION</text>
+</svg>
